@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530006D20F3432400818120 /* KeyanimationViewController.m */; };
+		7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530007220F4878600818120 /* BasicAnimationViewController.m */; };
+		7530007520F48F6F00818120 /* CABasicAnimation的key值.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */; };
+		7530007820F49D8900818120 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530007720F49D8900818120 /* CATransitionViewController.m */; };
+		7530007B20F4A69800818120 /* CATransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530007A20F4A69700818120 /* CATransitionView.m */; };
+		7530008B20F4ADC000818120 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008320F4ADBF00818120 /* 8.jpg */; };
+		7530008C20F4ADC000818120 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008420F4ADBF00818120 /* 1.jpg */; };
+		7530008D20F4ADC000818120 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008520F4ADBF00818120 /* 4.jpg */; };
+		7530008E20F4ADC000818120 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008620F4ADBF00818120 /* 3.jpg */; };
+		7530008F20F4ADC000818120 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008720F4ADBF00818120 /* 5.jpg */; };
+		7530009020F4ADC000818120 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008820F4ADBF00818120 /* 2.jpg */; };
+		7530009120F4ADC000818120 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008920F4ADBF00818120 /* 7.jpg */; };
+		7530009220F4ADC000818120 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530008A20F4ADBF00818120 /* 6.jpg */; };
+		7530009420F4AE2F00818120 /* CATransition中type的值.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7530009320F4AE2F00818120 /* CATransition中type的值.rtf */; };
+		7530009920F4B3B600818120 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530009520F4B3B500818120 /* 11.jpg */; };
+		7530009A20F4B3B600818120 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530009620F4B3B500818120 /* 9.jpg */; };
+		7530009B20F4B3B600818120 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530009720F4B3B600818120 /* 10.jpg */; };
+		7530009C20F4B3B600818120 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7530009820F4B3B600818120 /* 12.jpg */; };
+		7530009F20F5EAC800818120 /* FilterAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530009E20F5EAC800818120 /* FilterAnimationViewController.m */; };
+		753000A220F6080500818120 /* PourWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000A120F6080500818120 /* PourWaterViewController.m */; };
+		753000A520F608A200818120 /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753000A320F608A200818120 /* green@2x.png */; };
+		753000A620F608A200818120 /* gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753000A420F608A200818120 /* gray@2x.png */; };
+		753000AC20F8877400818120 /* PanMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000AB20F8877400818120 /* PanMenuViewController.m */; };
+		753000AF20FC3E9700818120 /* QGMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000AE20FC3E9700818120 /* QGMenuView.m */; };
+		753000B520FC6D2A00818120 /* QGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000B420FC6D2A00818120 /* QGMenuItem.m */; };
+		753000B820FC7C9500818120 /* QGMenuHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000B720FC7C9500818120 /* QGMenuHeader.m */; };
+		753000BB20FDBD7000818120 /* QGMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000BA20FDBD7000818120 /* QGMenuController.m */; };
+		753000BE20FECEFA00818120 /* QGMenuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000BD20FECEFA00818120 /* QGMenuLayout.m */; };
+		759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DDB20EF375100DDE941 /* AppDelegate.m */; };
+		759F3DDF20EF375100DDE941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DDE20EF375100DDE941 /* ViewController.m */; };
+		759F3DE220EF375100DDE941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759F3DE020EF375100DDE941 /* Main.storyboard */; };
+		759F3DE520EF375100DDE941 /* Quartz____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DE320EF375100DDE941 /* Quartz____.xcdatamodeld */; };
+		759F3DE720EF375100DDE941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759F3DE620EF375100DDE941 /* Assets.xcassets */; };
+		759F3DEA20EF375100DDE941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759F3DE820EF375100DDE941 /* LaunchScreen.storyboard */; };
+		759F3DED20EF375100DDE941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DEC20EF375100DDE941 /* main.m */; };
+		759F3DF720EF375100DDE941 /* Quartz____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DF620EF375100DDE941 /* Quartz____Tests.m */; };
+		759F3E0220EF375200DDE941 /* Quartz____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E0120EF375200DDE941 /* Quartz____UITests.m */; };
+		759F3E1220EF658E00DDE941 /* FunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E1120EF658E00DDE941 /* FunctionListViewController.m */; };
+		759F3E1920EF692300DDE941 /* CircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E1820EF692300DDE941 /* CircleProgress.m */; };
+		759F3E1C20EF697500DDE941 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E1B20EF697500DDE941 /* CircleProgressView.m */; };
+		759F3E2020F2F94F00DDE941 /* CirclePortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E1F20F2F94F00DDE941 /* CirclePortraitViewController.m */; };
+		759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E2220F2FD2500DDE941 /* CirclePortraitCell.m */; };
+		759F3E2520F2FD2500DDE941 /* CirclePortraitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759F3E2320F2FD2500DDE941 /* CirclePortraitCell.xib */; };
+		759F3E2720F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */; };
+		759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E2920F306A000DDE941 /* CirclePortraitShape.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759F3DF320EF375100DDE941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759F3DCF20EF375100DDE941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759F3DD620EF375100DDE941;
+			remoteInfo = "Quartz动画知识";
+		};
+		759F3DFE20EF375200DDE941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759F3DCF20EF375100DDE941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759F3DD620EF375100DDE941;
+			remoteInfo = "Quartz动画知识";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7530006C20F3432400818120 /* KeyanimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyanimationViewController.h; sourceTree = "<group>"; };
+		7530006D20F3432400818120 /* KeyanimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyanimationViewController.m; sourceTree = "<group>"; };
+		7530007120F4878600818120 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		7530007220F4878600818120 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "CABasicAnimation的key值.rtfd"; sourceTree = "<group>"; };
+		7530007620F49D8900818120 /* CATransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		7530007720F49D8900818120 /* CATransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		7530007920F4A69700818120 /* CATransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionView.h; sourceTree = "<group>"; };
+		7530007A20F4A69700818120 /* CATransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionView.m; sourceTree = "<group>"; };
+		7530008320F4ADBF00818120 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		7530008420F4ADBF00818120 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7530008520F4ADBF00818120 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		7530008620F4ADBF00818120 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		7530008720F4ADBF00818120 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		7530008820F4ADBF00818120 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		7530008920F4ADBF00818120 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		7530008A20F4ADBF00818120 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		7530009320F4AE2F00818120 /* CATransition中type的值.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "CATransition中type的值.rtf"; sourceTree = "<group>"; };
+		7530009520F4B3B500818120 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		7530009620F4B3B500818120 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		7530009720F4B3B600818120 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		7530009820F4B3B600818120 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		7530009D20F5EAC800818120 /* FilterAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterAnimationViewController.h; sourceTree = "<group>"; };
+		7530009E20F5EAC800818120 /* FilterAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterAnimationViewController.m; sourceTree = "<group>"; };
+		753000A020F6080500818120 /* PourWaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PourWaterViewController.h; sourceTree = "<group>"; };
+		753000A120F6080500818120 /* PourWaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PourWaterViewController.m; sourceTree = "<group>"; };
+		753000A320F608A200818120 /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
+		753000A420F608A200818120 /* gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray@2x.png"; sourceTree = "<group>"; };
+		753000AA20F8877400818120 /* PanMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanMenuViewController.h; sourceTree = "<group>"; };
+		753000AB20F8877400818120 /* PanMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanMenuViewController.m; sourceTree = "<group>"; };
+		753000AD20FC3E9700818120 /* QGMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuView.h; sourceTree = "<group>"; };
+		753000AE20FC3E9700818120 /* QGMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuView.m; sourceTree = "<group>"; };
+		753000B320FC6D2A00818120 /* QGMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuItem.h; sourceTree = "<group>"; };
+		753000B420FC6D2A00818120 /* QGMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuItem.m; sourceTree = "<group>"; };
+		753000B620FC7C9500818120 /* QGMenuHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuHeader.h; sourceTree = "<group>"; };
+		753000B720FC7C9500818120 /* QGMenuHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuHeader.m; sourceTree = "<group>"; };
+		753000B920FDBD7000818120 /* QGMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuController.h; sourceTree = "<group>"; };
+		753000BA20FDBD7000818120 /* QGMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuController.m; sourceTree = "<group>"; };
+		753000BC20FECEFA00818120 /* QGMenuLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuLayout.h; sourceTree = "<group>"; };
+		753000BD20FECEFA00818120 /* QGMenuLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuLayout.m; sourceTree = "<group>"; };
+		759F3DD720EF375100DDE941 /* Quartz动画知识.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz动画知识.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		759F3DDA20EF375100DDE941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		759F3DDB20EF375100DDE941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		759F3DDD20EF375100DDE941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		759F3DDE20EF375100DDE941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		759F3DE120EF375100DDE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		759F3DE420EF375100DDE941 /* Quartz____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Quartz____.xcdatamodel"; sourceTree = "<group>"; };
+		759F3DE620EF375100DDE941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759F3DE920EF375100DDE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		759F3DEB20EF375100DDE941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759F3DEC20EF375100DDE941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		759F3DF220EF375100DDE941 /* Quartz动画知识Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz动画知识Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		759F3DF620EF375100DDE941 /* Quartz____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Quartz____Tests.m"; sourceTree = "<group>"; };
+		759F3DF820EF375200DDE941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759F3DFD20EF375200DDE941 /* Quartz动画知识UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz动画知识UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		759F3E0120EF375200DDE941 /* Quartz____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Quartz____UITests.m"; sourceTree = "<group>"; };
+		759F3E0320EF375200DDE941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759F3E1020EF658E00DDE941 /* FunctionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionListViewController.h; sourceTree = "<group>"; };
+		759F3E1120EF658E00DDE941 /* FunctionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionListViewController.m; sourceTree = "<group>"; };
+		759F3E1720EF692300DDE941 /* CircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgress.h; sourceTree = "<group>"; };
+		759F3E1820EF692300DDE941 /* CircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgress.m; sourceTree = "<group>"; };
+		759F3E1A20EF697500DDE941 /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		759F3E1B20EF697500DDE941 /* CircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		759F3E1E20F2F94F00DDE941 /* CirclePortraitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePortraitViewController.h; sourceTree = "<group>"; };
+		759F3E1F20F2F94F00DDE941 /* CirclePortraitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePortraitViewController.m; sourceTree = "<group>"; };
+		759F3E2120F2FD2500DDE941 /* CirclePortraitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePortraitCell.h; sourceTree = "<group>"; };
+		759F3E2220F2FD2500DDE941 /* CirclePortraitCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePortraitCell.m; sourceTree = "<group>"; };
+		759F3E2320F2FD2500DDE941 /* CirclePortraitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CirclePortraitCell.xib; sourceTree = "<group>"; };
+		759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg; sourceTree = "<group>"; };
+		759F3E2820F306A000DDE941 /* CirclePortraitShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePortraitShape.h; sourceTree = "<group>"; };
+		759F3E2920F306A000DDE941 /* CirclePortraitShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePortraitShape.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759F3DD420EF375100DDE941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DEF20EF375100DDE941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DFA20EF375200DDE941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7530006B20F3422400818120 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7530008220F4AD9800818120 /* pic */,
+				7530009320F4AE2F00818120 /* CATransition中type的值.rtf */,
+				7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */,
+				7530006C20F3432400818120 /* KeyanimationViewController.h */,
+				7530006D20F3432400818120 /* KeyanimationViewController.m */,
+				7530007120F4878600818120 /* BasicAnimationViewController.h */,
+				7530007220F4878600818120 /* BasicAnimationViewController.m */,
+				7530007620F49D8900818120 /* CATransitionViewController.h */,
+				7530007720F49D8900818120 /* CATransitionViewController.m */,
+				7530007920F4A69700818120 /* CATransitionView.h */,
+				7530007A20F4A69700818120 /* CATransitionView.m */,
+				7530009D20F5EAC800818120 /* FilterAnimationViewController.h */,
+				7530009E20F5EAC800818120 /* FilterAnimationViewController.m */,
+				753000A020F6080500818120 /* PourWaterViewController.h */,
+				753000A120F6080500818120 /* PourWaterViewController.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		7530008220F4AD9800818120 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				753000A420F608A200818120 /* gray@2x.png */,
+				753000A320F608A200818120 /* green@2x.png */,
+				7530009620F4B3B500818120 /* 9.jpg */,
+				7530009720F4B3B600818120 /* 10.jpg */,
+				7530009520F4B3B500818120 /* 11.jpg */,
+				7530009820F4B3B600818120 /* 12.jpg */,
+				7530008420F4ADBF00818120 /* 1.jpg */,
+				7530008820F4ADBF00818120 /* 2.jpg */,
+				7530008620F4ADBF00818120 /* 3.jpg */,
+				7530008520F4ADBF00818120 /* 4.jpg */,
+				7530008720F4ADBF00818120 /* 5.jpg */,
+				7530008A20F4ADBF00818120 /* 6.jpg */,
+				7530008920F4ADBF00818120 /* 7.jpg */,
+				7530008320F4ADBF00818120 /* 8.jpg */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		753000A720F71FCD00818120 /* RunLoop监听 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RunLoop监听";
+			sourceTree = "<group>";
+		};
+		753000A820F883B800818120 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				753000A920F8866B00818120 /* 可拖拽菜单列表 */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		753000A920F8866B00818120 /* 可拖拽菜单列表 */ = {
+			isa = PBXGroup;
+			children = (
+				753000AA20F8877400818120 /* PanMenuViewController.h */,
+				753000AB20F8877400818120 /* PanMenuViewController.m */,
+				753000B920FDBD7000818120 /* QGMenuController.h */,
+				753000BA20FDBD7000818120 /* QGMenuController.m */,
+				753000AD20FC3E9700818120 /* QGMenuView.h */,
+				753000AE20FC3E9700818120 /* QGMenuView.m */,
+				753000BC20FECEFA00818120 /* QGMenuLayout.h */,
+				753000BD20FECEFA00818120 /* QGMenuLayout.m */,
+				753000B620FC7C9500818120 /* QGMenuHeader.h */,
+				753000B720FC7C9500818120 /* QGMenuHeader.m */,
+				753000B320FC6D2A00818120 /* QGMenuItem.h */,
+				753000B420FC6D2A00818120 /* QGMenuItem.m */,
+			);
+			path = "可拖拽菜单列表";
+			sourceTree = "<group>";
+		};
+		759F3DCE20EF375100DDE941 = {
+			isa = PBXGroup;
+			children = (
+				759F3DD920EF375100DDE941 /* Quartz动画知识 */,
+				759F3DF520EF375100DDE941 /* Quartz动画知识Tests */,
+				759F3E0020EF375200DDE941 /* Quartz动画知识UITests */,
+				759F3DD820EF375100DDE941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		759F3DD820EF375100DDE941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759F3DD720EF375100DDE941 /* Quartz动画知识.app */,
+				759F3DF220EF375100DDE941 /* Quartz动画知识Tests.xctest */,
+				759F3DFD20EF375200DDE941 /* Quartz动画知识UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759F3DD920EF375100DDE941 /* Quartz动画知识 */ = {
+			isa = PBXGroup;
+			children = (
+				759F3E0F20EF649800DDE941 /* New Group */,
+				759F3DDA20EF375100DDE941 /* AppDelegate.h */,
+				759F3DDB20EF375100DDE941 /* AppDelegate.m */,
+				759F3DDD20EF375100DDE941 /* ViewController.h */,
+				759F3DDE20EF375100DDE941 /* ViewController.m */,
+				759F3DE020EF375100DDE941 /* Main.storyboard */,
+				759F3DE620EF375100DDE941 /* Assets.xcassets */,
+				759F3DE820EF375100DDE941 /* LaunchScreen.storyboard */,
+				759F3DEB20EF375100DDE941 /* Info.plist */,
+				759F3DEC20EF375100DDE941 /* main.m */,
+				759F3DE320EF375100DDE941 /* Quartz____.xcdatamodeld */,
+			);
+			path = "Quartz动画知识";
+			sourceTree = "<group>";
+		};
+		759F3DF520EF375100DDE941 /* Quartz动画知识Tests */ = {
+			isa = PBXGroup;
+			children = (
+				759F3DF620EF375100DDE941 /* Quartz____Tests.m */,
+				759F3DF820EF375200DDE941 /* Info.plist */,
+			);
+			path = "Quartz动画知识Tests";
+			sourceTree = "<group>";
+		};
+		759F3E0020EF375200DDE941 /* Quartz动画知识UITests */ = {
+			isa = PBXGroup;
+			children = (
+				759F3E0120EF375200DDE941 /* Quartz____UITests.m */,
+				759F3E0320EF375200DDE941 /* Info.plist */,
+			);
+			path = "Quartz动画知识UITests";
+			sourceTree = "<group>";
+		};
+		759F3E0F20EF649800DDE941 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				753000A820F883B800818120 /* UI */,
+				753000A720F71FCD00818120 /* RunLoop监听 */,
+				7530006B20F3422400818120 /* 动画 */,
+				759F3E1D20F2F89D00DDE941 /* 圆形头像 */,
+				759F3E1620EF690900DDE941 /* 圆形进度条 */,
+				759F3E1020EF658E00DDE941 /* FunctionListViewController.h */,
+				759F3E1120EF658E00DDE941 /* FunctionListViewController.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		759F3E1620EF690900DDE941 /* 圆形进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				759F3E1720EF692300DDE941 /* CircleProgress.h */,
+				759F3E1820EF692300DDE941 /* CircleProgress.m */,
+				759F3E1A20EF697500DDE941 /* CircleProgressView.h */,
+				759F3E1B20EF697500DDE941 /* CircleProgressView.m */,
+			);
+			path = "圆形进度条";
+			sourceTree = "<group>";
+		};
+		759F3E1D20F2F89D00DDE941 /* 圆形头像 */ = {
+			isa = PBXGroup;
+			children = (
+				759F3E1E20F2F94F00DDE941 /* CirclePortraitViewController.h */,
+				759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */,
+				759F3E1F20F2F94F00DDE941 /* CirclePortraitViewController.m */,
+				759F3E2120F2FD2500DDE941 /* CirclePortraitCell.h */,
+				759F3E2220F2FD2500DDE941 /* CirclePortraitCell.m */,
+				759F3E2320F2FD2500DDE941 /* CirclePortraitCell.xib */,
+				759F3E2820F306A000DDE941 /* CirclePortraitShape.h */,
+				759F3E2920F306A000DDE941 /* CirclePortraitShape.m */,
+			);
+			path = "圆形头像";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759F3DD620EF375100DDE941 /* Quartz动画知识 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759F3E0620EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识" */;
+			buildPhases = (
+				759F3DD320EF375100DDE941 /* Sources */,
+				759F3DD420EF375100DDE941 /* Frameworks */,
+				759F3DD520EF375100DDE941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz动画知识";
+			productName = "Quartz动画知识";
+			productReference = 759F3DD720EF375100DDE941 /* Quartz动画知识.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759F3DF120EF375100DDE941 /* Quartz动画知识Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759F3E0920EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识Tests" */;
+			buildPhases = (
+				759F3DEE20EF375100DDE941 /* Sources */,
+				759F3DEF20EF375100DDE941 /* Frameworks */,
+				759F3DF020EF375100DDE941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759F3DF420EF375100DDE941 /* PBXTargetDependency */,
+			);
+			name = "Quartz动画知识Tests";
+			productName = "Quartz动画知识Tests";
+			productReference = 759F3DF220EF375100DDE941 /* Quartz动画知识Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759F3DFC20EF375200DDE941 /* Quartz动画知识UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759F3E0C20EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识UITests" */;
+			buildPhases = (
+				759F3DF920EF375200DDE941 /* Sources */,
+				759F3DFA20EF375200DDE941 /* Frameworks */,
+				759F3DFB20EF375200DDE941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759F3DFF20EF375200DDE941 /* PBXTargetDependency */,
+			);
+			name = "Quartz动画知识UITests";
+			productName = "Quartz动画知识UITests";
+			productReference = 759F3DFD20EF375200DDE941 /* Quartz动画知识UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759F3DCF20EF375100DDE941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = jorgon;
+				TargetAttributes = {
+					759F3DD620EF375100DDE941 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					759F3DF120EF375100DDE941 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 759F3DD620EF375100DDE941;
+					};
+					759F3DFC20EF375200DDE941 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 759F3DD620EF375100DDE941;
+					};
+				};
+			};
+			buildConfigurationList = 759F3DD220EF375100DDE941 /* Build configuration list for PBXProject "Quartz动画知识" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759F3DCE20EF375100DDE941;
+			productRefGroup = 759F3DD820EF375100DDE941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759F3DD620EF375100DDE941 /* Quartz动画知识 */,
+				759F3DF120EF375100DDE941 /* Quartz动画知识Tests */,
+				759F3DFC20EF375200DDE941 /* Quartz动画知识UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759F3DD520EF375100DDE941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7530009220F4ADC000818120 /* 6.jpg in Resources */,
+				7530008F20F4ADC000818120 /* 5.jpg in Resources */,
+				759F3DEA20EF375100DDE941 /* LaunchScreen.storyboard in Resources */,
+				759F3E2720F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg in Resources */,
+				7530009B20F4B3B600818120 /* 10.jpg in Resources */,
+				759F3DE720EF375100DDE941 /* Assets.xcassets in Resources */,
+				753000A520F608A200818120 /* green@2x.png in Resources */,
+				7530007520F48F6F00818120 /* CABasicAnimation的key值.rtfd in Resources */,
+				759F3E2520F2FD2500DDE941 /* CirclePortraitCell.xib in Resources */,
+				7530009920F4B3B600818120 /* 11.jpg in Resources */,
+				753000A620F608A200818120 /* gray@2x.png in Resources */,
+				7530009420F4AE2F00818120 /* CATransition中type的值.rtf in Resources */,
+				7530009020F4ADC000818120 /* 2.jpg in Resources */,
+				7530008E20F4ADC000818120 /* 3.jpg in Resources */,
+				7530008C20F4ADC000818120 /* 1.jpg in Resources */,
+				7530009A20F4B3B600818120 /* 9.jpg in Resources */,
+				7530009C20F4B3B600818120 /* 12.jpg in Resources */,
+				7530008D20F4ADC000818120 /* 4.jpg in Resources */,
+				7530009120F4ADC000818120 /* 7.jpg in Resources */,
+				759F3DE220EF375100DDE941 /* Main.storyboard in Resources */,
+				7530008B20F4ADC000818120 /* 8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DF020EF375100DDE941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DFB20EF375200DDE941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759F3DD320EF375100DDE941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7530007820F49D8900818120 /* CATransitionViewController.m in Sources */,
+				759F3E1920EF692300DDE941 /* CircleProgress.m in Sources */,
+				753000BE20FECEFA00818120 /* QGMenuLayout.m in Sources */,
+				759F3DE520EF375100DDE941 /* Quartz____.xcdatamodeld in Sources */,
+				753000B520FC6D2A00818120 /* QGMenuItem.m in Sources */,
+				7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */,
+				759F3E1220EF658E00DDE941 /* FunctionListViewController.m in Sources */,
+				759F3DDF20EF375100DDE941 /* ViewController.m in Sources */,
+				759F3DED20EF375100DDE941 /* main.m in Sources */,
+				753000BB20FDBD7000818120 /* QGMenuController.m in Sources */,
+				7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */,
+				759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */,
+				7530007B20F4A69800818120 /* CATransitionView.m in Sources */,
+				7530009F20F5EAC800818120 /* FilterAnimationViewController.m in Sources */,
+				759F3E1C20EF697500DDE941 /* CircleProgressView.m in Sources */,
+				753000A220F6080500818120 /* PourWaterViewController.m in Sources */,
+				753000AF20FC3E9700818120 /* QGMenuView.m in Sources */,
+				759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */,
+				753000AC20F8877400818120 /* PanMenuViewController.m in Sources */,
+				759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */,
+				759F3E2020F2F94F00DDE941 /* CirclePortraitViewController.m in Sources */,
+				753000B820FC7C9500818120 /* QGMenuHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DEE20EF375100DDE941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759F3DF720EF375100DDE941 /* Quartz____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759F3DF920EF375200DDE941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759F3E0220EF375200DDE941 /* Quartz____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759F3DF420EF375100DDE941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759F3DD620EF375100DDE941 /* Quartz动画知识 */;
+			targetProxy = 759F3DF320EF375100DDE941 /* PBXContainerItemProxy */;
+		};
+		759F3DFF20EF375200DDE941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759F3DD620EF375100DDE941 /* Quartz动画知识 */;
+			targetProxy = 759F3DFE20EF375200DDE941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759F3DE020EF375100DDE941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759F3DE120EF375100DDE941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		759F3DE820EF375100DDE941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759F3DE920EF375100DDE941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759F3E0420EF375200DDE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		759F3E0520EF375200DDE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759F3E0720EF375200DDE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKFXWFNKZ2;
+				INFOPLIST_FILE = "Quartz动画知识/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759F3E0820EF375200DDE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKFXWFNKZ2;
+				INFOPLIST_FILE = "Quartz动画知识/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759F3E0A20EF375200DDE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = "Quartz动画知识Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz动画知识.app/Quartz动画知识";
+			};
+			name = Debug;
+		};
+		759F3E0B20EF375200DDE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = "Quartz动画知识Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz动画知识.app/Quartz动画知识";
+			};
+			name = Release;
+		};
+		759F3E0D20EF375200DDE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = "Quartz动画知识UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quartz动画知识";
+			};
+			name = Debug;
+		};
+		759F3E0E20EF375200DDE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = "Quartz动画知识UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quartz动画知识";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759F3DD220EF375100DDE941 /* Build configuration list for PBXProject "Quartz动画知识" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759F3E0420EF375200DDE941 /* Debug */,
+				759F3E0520EF375200DDE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759F3E0620EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759F3E0720EF375200DDE941 /* Debug */,
+				759F3E0820EF375200DDE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759F3E0920EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759F3E0A20EF375200DDE941 /* Debug */,
+				759F3E0B20EF375200DDE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759F3E0C20EF375200DDE941 /* Build configuration list for PBXNativeTarget "Quartz动画知识UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759F3E0D20EF375200DDE941 /* Debug */,
+				759F3E0E20EF375200DDE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		759F3DE320EF375100DDE941 /* Quartz____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				759F3DE420EF375100DDE941 /* Quartz____.xcdatamodel */,
+			);
+			currentVersion = 759F3DE420EF375100DDE941 /* Quartz____.xcdatamodel */;
+			path = "Quartz____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 759F3DCF20EF375100DDE941 /* Project object */;
+}
