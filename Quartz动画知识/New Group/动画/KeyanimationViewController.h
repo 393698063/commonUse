@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface KeyanimationViewController : UIViewController
-
+@property (nonatomic, copy) NSString * name;
 @end

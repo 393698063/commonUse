@@ -28,7 +28,9 @@
                  @"CATransitionViewController",
                  @"FilterAnimationViewController",
                  @"PourWaterViewController",
-                 @"PanMenuViewController"];
+                 @"PanMenuViewController",
+                 @"MessageForwardController",
+                 @"SoundEffectViewController"];
 }
 
 #pragma mark - UITableViewDelegate
@@ -56,7 +58,7 @@
         return;
     }
     NSString * type = @"push";
-    switch (indexPath.row) {
+    switch (indexPath.row%13) {
         case 1:
             type = @"fade";
 //            label.text = @"淡入淡出";

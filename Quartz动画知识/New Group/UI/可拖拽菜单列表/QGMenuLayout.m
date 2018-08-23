@@ -132,11 +132,11 @@ typedef NS_ENUM(NSInteger, DragScrollDirction) {
         return;
     }
     
-    if (contentOffset.y + increment <= -contentInset.top - self.collectionView.adjustedContentInset.top) {//到达最顶端时
+    if (contentOffset.y + increment <= -contentInset.top) {//到达最顶端时
         [UIView animateWithDuration:0.3f animations:^{
-             CGFloat diff = -contentInset.top - self.collectionView.adjustedContentInset.top - contentOffset.y;
+             CGFloat diff = -contentInset.top - contentOffset.y;
             _fakeViewCenter = CGPointMake(_fakeViewCenter.x, _fakeViewCenter.y + diff);
-            self.collectionView.contentOffset = CGPointMake(contentOffset.x, -contentInset.top - self.collectionView.adjustedContentInset.top);
+            self.collectionView.contentOffset = CGPointMake(contentOffset.x, -contentInset.top);
             _fakeView.center = CGPointMake(_fakeViewCenter.x + _panTranslation.x, _fakeViewCenter.y + _panTranslation.y);
         } completion:^(BOOL finished) {
         }];
@@ -315,8 +315,8 @@ typedef NS_ENUM(NSInteger, DragScrollDirction) {
                     [self setUpDisplayLink]; //往下滚动
                 }
             }
-            else if (CGRectGetMinY(_fakeView.frame) <= (self.collectionView.contentOffset.y + self.collectionView.contentInset.top + self.collectionView.adjustedContentInset.top)){
-                if (self.collectionView.contentOffset.y > (-self.collectionView.contentInset.top - self.collectionView.adjustedContentInset.top)) {
+            else if (CGRectGetMinY(_fakeView.frame) <= (self.collectionView.contentOffset.y + self.collectionView.contentInset.top )){
+                if (self.collectionView.contentOffset.y > (-self.collectionView.contentInset.top )) {
                     self.dragScrollDirection = DragScrollDirctionUp;
                     [self setUpDisplayLink]; //往上滚动
                 }

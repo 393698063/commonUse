@@ -6,27 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/ViewController.m"
-            timestampString = "553749252.469752"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-addObserver"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/UI/&#x53ef;&#x62d6;&#x62fd;&#x83dc;&#x5355;&#x5217;&#x8868;/QGMenuLayout.m"
-            timestampString = "553749252.469883"
+            timestampString = "556687061.238554"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "212"
@@ -38,49 +22,43 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/UI/&#x53ef;&#x62d6;&#x62fd;&#x83dc;&#x5355;&#x5217;&#x8868;/QGMenuLayout.m"
-            timestampString = "553749252.469997"
+            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/RunLoop&#x76d1;&#x542c;/&#x6d88;&#x606f;&#x8f6c;&#x53d1;/MessageForwardController.m"
+            timestampString = "556686621.506838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
-            landmarkName = "-handlePanGesture:"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-add:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/UI/&#x53ef;&#x62d6;&#x62fd;&#x83dc;&#x5355;&#x5217;&#x8868;/QGMenuLayout.m"
-            timestampString = "553749252.470084"
+            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/RunLoop&#x76d1;&#x542c;/&#x6d88;&#x606f;&#x8f6c;&#x53d1;/MessageForwardController.m"
+            timestampString = "556686621.50723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
-            landmarkName = "-handlePanGesture:"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "-performSelector:withObjects:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Quartz&#x52a8;&#x753b;&#x77e5;&#x8bc6;/New Group/UI/&#x53ef;&#x62d6;&#x62fd;&#x83dc;&#x5355;&#x5217;&#x8868;/QGMenuLayout.m"
-            timestampString = "553749252.470165"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
-            landmarkName = "-handlePanGesture:"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -11,10 +11,20 @@
 @interface KeyanimationViewController ()
 {
     UIView * _keyAnimationView;
+    NSString * _name;
 }
 @end
 
 @implementation KeyanimationViewController
+//@synthesize name = _name;
+
+- (void)setName:(NSString *)name{
+    _name = name;
+}
+
+- (NSString *)name{
+    return _name;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

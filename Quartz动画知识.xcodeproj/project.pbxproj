@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7517ACFB21056D0A005A5675 /* KeyanimationViewController+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517ACFA21056D0A005A5675 /* KeyanimationViewController+add.m */; };
+		7517AD122105CD4F005A5675 /* MessageForwardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517AD112105CD4F005A5675 /* MessageForwardController.m */; };
 		7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530006D20F3432400818120 /* KeyanimationViewController.m */; };
 		7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530007220F4878600818120 /* BasicAnimationViewController.m */; };
 		7530007520F48F6F00818120 /* CABasicAnimation的key值.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */; };
@@ -52,6 +54,9 @@
 		759F3E2520F2FD2500DDE941 /* CirclePortraitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759F3E2320F2FD2500DDE941 /* CirclePortraitCell.xib */; };
 		759F3E2720F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */; };
 		759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3E2920F306A000DDE941 /* CirclePortraitShape.m */; };
+		75F61C19212D4AE600D6EA42 /* SoundEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C18212D4AE600D6EA42 /* SoundEffectViewController.m */; };
+		75F61C1B212D5A9C00D6EA42 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75F61C1A212D5A9C00D6EA42 /* test.mp3 */; };
+		75F61C1E212D693800D6EA42 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C1D212D693800D6EA42 /* MusicPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +77,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7517ACF921056D0A005A5675 /* KeyanimationViewController+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyanimationViewController+add.h"; sourceTree = "<group>"; };
+		7517ACFA21056D0A005A5675 /* KeyanimationViewController+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KeyanimationViewController+add.m"; sourceTree = "<group>"; };
+		7517AD102105CD4F005A5675 /* MessageForwardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardController.h; sourceTree = "<group>"; };
+		7517AD112105CD4F005A5675 /* MessageForwardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardController.m; sourceTree = "<group>"; };
 		7530006C20F3432400818120 /* KeyanimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyanimationViewController.h; sourceTree = "<group>"; };
 		7530006D20F3432400818120 /* KeyanimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyanimationViewController.m; sourceTree = "<group>"; };
 		7530007120F4878600818120 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
@@ -143,6 +152,12 @@
 		759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg; sourceTree = "<group>"; };
 		759F3E2820F306A000DDE941 /* CirclePortraitShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePortraitShape.h; sourceTree = "<group>"; };
 		759F3E2920F306A000DDE941 /* CirclePortraitShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePortraitShape.m; sourceTree = "<group>"; };
+		75F61C17212D4AE600D6EA42 /* SoundEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundEffectViewController.h; sourceTree = "<group>"; };
+		75F61C18212D4AE600D6EA42 /* SoundEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundEffectViewController.m; sourceTree = "<group>"; };
+		75F61C1A212D5A9C00D6EA42 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		75F61C1C212D693800D6EA42 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		75F61C1D212D693800D6EA42 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		75F61C22212E630100D6EA42 /* Quartz动画知识.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quartz动画知识.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +185,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7517AD0F2105CD13005A5675 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				7517AD102105CD4F005A5675 /* MessageForwardController.h */,
+				7517AD112105CD4F005A5675 /* MessageForwardController.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
 		7530006B20F3422400818120 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +202,8 @@
 				7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */,
 				7530006C20F3432400818120 /* KeyanimationViewController.h */,
 				7530006D20F3432400818120 /* KeyanimationViewController.m */,
+				7517ACF921056D0A005A5675 /* KeyanimationViewController+add.h */,
+				7517ACFA21056D0A005A5675 /* KeyanimationViewController+add.m */,
 				7530007120F4878600818120 /* BasicAnimationViewController.h */,
 				7530007220F4878600818120 /* BasicAnimationViewController.m */,
 				7530007620F49D8900818120 /* CATransitionViewController.h */,
@@ -216,6 +242,7 @@
 		753000A720F71FCD00818120 /* RunLoop监听 */ = {
 			isa = PBXGroup;
 			children = (
+				7517AD0F2105CD13005A5675 /* 消息转发 */,
 			);
 			path = "RunLoop监听";
 			sourceTree = "<group>";
@@ -270,6 +297,7 @@
 		759F3DD920EF375100DDE941 /* Quartz动画知识 */ = {
 			isa = PBXGroup;
 			children = (
+				75F61C22212E630100D6EA42 /* Quartz动画知识.entitlements */,
 				759F3E0F20EF649800DDE941 /* New Group */,
 				759F3DDA20EF375100DDE941 /* AppDelegate.h */,
 				759F3DDB20EF375100DDE941 /* AppDelegate.m */,
@@ -306,6 +334,8 @@
 		759F3E0F20EF649800DDE941 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				75F61C1F212E61C700D6EA42 /* file */,
+				75F61C16212D4A7B00D6EA42 /* 声音视屏 */,
 				753000A820F883B800818120 /* UI */,
 				753000A720F71FCD00818120 /* RunLoop监听 */,
 				7530006B20F3422400818120 /* 动画 */,
@@ -341,6 +371,25 @@
 				759F3E2920F306A000DDE941 /* CirclePortraitShape.m */,
 			);
 			path = "圆形头像";
+			sourceTree = "<group>";
+		};
+		75F61C16212D4A7B00D6EA42 /* 声音视屏 */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C1A212D5A9C00D6EA42 /* test.mp3 */,
+				75F61C17212D4AE600D6EA42 /* SoundEffectViewController.h */,
+				75F61C18212D4AE600D6EA42 /* SoundEffectViewController.m */,
+				75F61C1C212D693800D6EA42 /* MusicPlayerViewController.h */,
+				75F61C1D212D693800D6EA42 /* MusicPlayerViewController.m */,
+			);
+			path = "声音视屏";
+			sourceTree = "<group>";
+		};
+		75F61C1F212E61C700D6EA42 /* file */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +460,11 @@
 					759F3DD620EF375100DDE941 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					759F3DF120EF375100DDE941 = {
 						CreatedOnToolsVersion = 9.1;
@@ -465,6 +519,7 @@
 				7530008E20F4ADC000818120 /* 3.jpg in Resources */,
 				7530008C20F4ADC000818120 /* 1.jpg in Resources */,
 				7530009A20F4B3B600818120 /* 9.jpg in Resources */,
+				75F61C1B212D5A9C00D6EA42 /* test.mp3 in Resources */,
 				7530009C20F4B3B600818120 /* 12.jpg in Resources */,
 				7530008D20F4ADC000818120 /* 4.jpg in Resources */,
 				7530009120F4ADC000818120 /* 7.jpg in Resources */,
@@ -503,6 +558,7 @@
 				759F3E1220EF658E00DDE941 /* FunctionListViewController.m in Sources */,
 				759F3DDF20EF375100DDE941 /* ViewController.m in Sources */,
 				759F3DED20EF375100DDE941 /* main.m in Sources */,
+				7517ACFB21056D0A005A5675 /* KeyanimationViewController+add.m in Sources */,
 				753000BB20FDBD7000818120 /* QGMenuController.m in Sources */,
 				7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */,
 				759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */,
@@ -510,10 +566,13 @@
 				7530009F20F5EAC800818120 /* FilterAnimationViewController.m in Sources */,
 				759F3E1C20EF697500DDE941 /* CircleProgressView.m in Sources */,
 				753000A220F6080500818120 /* PourWaterViewController.m in Sources */,
+				75F61C19212D4AE600D6EA42 /* SoundEffectViewController.m in Sources */,
 				753000AF20FC3E9700818120 /* QGMenuView.m in Sources */,
 				759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */,
+				7517AD122105CD4F005A5675 /* MessageForwardController.m in Sources */,
 				753000AC20F8877400818120 /* PanMenuViewController.m in Sources */,
 				759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */,
+				75F61C1E212D693800D6EA42 /* MusicPlayerViewController.m in Sources */,
 				759F3E2020F2F94F00DDE941 /* CirclePortraitViewController.m in Sources */,
 				753000B820FC7C9500818120 /* QGMenuHeader.m in Sources */,
 			);
@@ -678,11 +737,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quartz动画知识/Quartz动画知识.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KKFXWFNKZ2;
+				DEVELOPMENT_TEAM = 9Q77KWL3VP;
 				INFOPLIST_FILE = "Quartz动画知识/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasdf;
+				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -692,11 +753,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quartz动画知识/Quartz动画知识.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KKFXWFNKZ2;
+				DEVELOPMENT_TEAM = 9Q77KWL3VP;
 				INFOPLIST_FILE = "Quartz动画知识/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasdf;
+				PRODUCT_BUNDLE_IDENTIFIER = ads.Quartzasdfasd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
