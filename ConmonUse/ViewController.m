@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+Test.h"
 
 @interface ViewController ()
 {
@@ -41,6 +42,13 @@
     [button setTitle:@"dianjia" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(changeLayerProperty) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+//    [self method:@"1",@"2",@"3",@"4", nil];
+//    
+//    NSSet * subclasses = [self.class subclasses];
+//    NSArray * superClasses = [self.class superclasses];
+//    NSLog(@"%@",subclasses);
+//    NSLog(@"%@",superClasses);
     
 //    [self observeRunloop];
 //    [NSTimer scheduledTimerWithTimeInterval:2.0

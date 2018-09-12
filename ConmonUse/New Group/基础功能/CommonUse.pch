@@ -1,0 +1,16 @@
+//
+//  CommonUse.pch
+//  ConmonUse
+//
+//  Created by jorgon on 03/09/18.
+//  Copyright © 2018年 jorgon. All rights reserved.
+//
+
+#ifndef CommonUse_pch
+#define CommonUse_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* CommonUse_pch */

@@ -162,7 +162,6 @@
         void *buffer = (void *)malloc(length);
         //为变量赋值
         [invocation getReturnValue:buffer];
-        //以下代码为参考:具体地址我忘记了，等我找到后补上，(很对不起原作者)
         if( !strcmp(returnType, @encode(BOOL)) ) {
             returnValue = [NSNumber numberWithBool:*((BOOL*)buffer)];
         }

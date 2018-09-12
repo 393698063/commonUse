@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50603BEA47687D7A6824B171 /* libPods-ConmonUse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */; };
 		7517ACFB21056D0A005A5675 /* KeyanimationViewController+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517ACFA21056D0A005A5675 /* KeyanimationViewController+add.m */; };
 		7517AD122105CD4F005A5675 /* MessageForwardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517AD112105CD4F005A5675 /* MessageForwardController.m */; };
 		7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530006D20F3432400818120 /* KeyanimationViewController.m */; };
@@ -37,6 +38,12 @@
 		753000B820FC7C9500818120 /* QGMenuHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000B720FC7C9500818120 /* QGMenuHeader.m */; };
 		753000BB20FDBD7000818120 /* QGMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000BA20FDBD7000818120 /* QGMenuController.m */; };
 		753000BE20FECEFA00818120 /* QGMenuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 753000BD20FECEFA00818120 /* QGMenuLayout.m */; };
+		75572C3A21393DD50036D6C5 /* DispatchTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C3921393DD50036D6C5 /* DispatchTimerViewController.m */; };
+		75572C3E213CCF220036D6C5 /* AES128ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C3D213CCF220036D6C5 /* AES128ViewController.m */; };
+		75572C41213CFD540036D6C5 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C40213CFD540036D6C5 /* Cryptography.m */; };
+		75572C45213D2DA30036D6C5 /* AnimatingGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C44213D2DA30036D6C5 /* AnimatingGradientLayer.m */; };
+		75572C48213D2F2C0036D6C5 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C47213D2F2C0036D6C5 /* QRCode.m */; };
+		75572C4B213D3A4D0036D6C5 /* GraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75572C4A213D3A4D0036D6C5 /* GraphicViewController.m */; };
 		759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DDB20EF375100DDE941 /* AppDelegate.m */; };
 		759F3DDF20EF375100DDE941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F3DDE20EF375100DDE941 /* ViewController.m */; };
 		759F3DE220EF375100DDE941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759F3DE020EF375100DDE941 /* Main.storyboard */; };
@@ -58,6 +65,22 @@
 		75F61C1B212D5A9C00D6EA42 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75F61C1A212D5A9C00D6EA42 /* test.mp3 */; };
 		75F61C1E212D693800D6EA42 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C1D212D693800D6EA42 /* MusicPlayerViewController.m */; };
 		75F61C28212FD98200D6EA42 /* MusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C27212FD98200D6EA42 /* MusicTool.m */; };
+		75F61C2B212FE29900D6EA42 /* LrcDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C2A212FE29900D6EA42 /* LrcDataTool.m */; };
+		75F61C2F212FE2D200D6EA42 /* LrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C2E212FE2D200D6EA42 /* LrcModel.m */; };
+		75F61C32212FE99700D6EA42 /* TimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C31212FE99700D6EA42 /* TimeTool.m */; };
+		75F61C35212FEC6500D6EA42 /* MusicOperationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C34212FEC6500D6EA42 /* MusicOperationTool.m */; };
+		75F61C38212FED2300D6EA42 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C37212FED2300D6EA42 /* MusicModel.m */; };
+		75F61C3B212FEDC400D6EA42 /* MusicMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C3A212FEDC400D6EA42 /* MusicMessageModel.m */; };
+		75F61C3D212FEEB100D6EA42 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75F61C3C212FEEB100D6EA42 /* Resources.bundle */; };
+		75F61C40212FF91100D6EA42 /* MusicImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C3F212FF91100D6EA42 /* MusicImageTool.m */; };
+		75F61C4221300AFC00D6EA42 /* QQMusic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F61C4121300AFC00D6EA42 /* QQMusic.xcassets */; };
+		75F61C462131516300D6EA42 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C452131516300D6EA42 /* MusicListViewController.m */; };
+		75F61C49213390DD00D6EA42 /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C48213390DD00D6EA42 /* MusicPlayViewController.m */; };
+		75F61C4D2133A2E400D6EA42 /* CALayer+LayerPause.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C4C2133A2E400D6EA42 /* CALayer+LayerPause.m */; };
+		75F61C512133DCAB00D6EA42 /* LrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C502133DCAA00D6EA42 /* LrcLabel.m */; };
+		75F61C5521366FB500D6EA42 /* MyProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5421366FB500D6EA42 /* MyProxy.m */; };
+		75F61C582138EFF600D6EA42 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C572138EFF500D6EA42 /* NSObject+Test.m */; };
+		75F61C5C21392EFB00D6EA42 /* MeasureOperationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +101,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		294C20F8683D69C368B11EE4 /* Pods-ConmonUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConmonUse.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.release.xcconfig"; sourceTree = "<group>"; };
 		7517ACF921056D0A005A5675 /* KeyanimationViewController+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyanimationViewController+add.h"; sourceTree = "<group>"; };
 		7517ACFA21056D0A005A5675 /* KeyanimationViewController+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KeyanimationViewController+add.m"; sourceTree = "<group>"; };
 		7517AD102105CD4F005A5675 /* MessageForwardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardController.h; sourceTree = "<group>"; };
@@ -122,6 +146,18 @@
 		753000BA20FDBD7000818120 /* QGMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuController.m; sourceTree = "<group>"; };
 		753000BC20FECEFA00818120 /* QGMenuLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGMenuLayout.h; sourceTree = "<group>"; };
 		753000BD20FECEFA00818120 /* QGMenuLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGMenuLayout.m; sourceTree = "<group>"; };
+		75572C3821393DD50036D6C5 /* DispatchTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatchTimerViewController.h; sourceTree = "<group>"; };
+		75572C3921393DD50036D6C5 /* DispatchTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerViewController.m; sourceTree = "<group>"; };
+		75572C3C213CCF220036D6C5 /* AES128ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AES128ViewController.h; sourceTree = "<group>"; };
+		75572C3D213CCF220036D6C5 /* AES128ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES128ViewController.m; sourceTree = "<group>"; };
+		75572C3F213CFD540036D6C5 /* Cryptography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptography.h; sourceTree = "<group>"; };
+		75572C40213CFD540036D6C5 /* Cryptography.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cryptography.m; sourceTree = "<group>"; };
+		75572C43213D2DA30036D6C5 /* AnimatingGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatingGradientLayer.h; sourceTree = "<group>"; };
+		75572C44213D2DA30036D6C5 /* AnimatingGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatingGradientLayer.m; sourceTree = "<group>"; };
+		75572C46213D2F2C0036D6C5 /* QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		75572C47213D2F2C0036D6C5 /* QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		75572C49213D3A4D0036D6C5 /* GraphicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicViewController.h; sourceTree = "<group>"; };
+		75572C4A213D3A4D0036D6C5 /* GraphicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicViewController.m; sourceTree = "<group>"; };
 		759F3DD720EF375100DDE941 /* ConmonUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConmonUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759F3DDA20EF375100DDE941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		759F3DDB20EF375100DDE941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +189,8 @@
 		759F3E2620F2FFBF00DDE941 /* c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c75c10385343fbf2c6e17e6eb27eca8064388faa.jpg; sourceTree = "<group>"; };
 		759F3E2820F306A000DDE941 /* CirclePortraitShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePortraitShape.h; sourceTree = "<group>"; };
 		759F3E2920F306A000DDE941 /* CirclePortraitShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePortraitShape.m; sourceTree = "<group>"; };
+		75DC23A1213D3ED40054AEFD /* CommonUse.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUse.pch; sourceTree = "<group>"; };
+		75DC23A3213E24B00054AEFD /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		75F61C17212D4AE600D6EA42 /* SoundEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundEffectViewController.h; sourceTree = "<group>"; };
 		75F61C18212D4AE600D6EA42 /* SoundEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundEffectViewController.m; sourceTree = "<group>"; };
 		75F61C1A212D5A9C00D6EA42 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
@@ -161,6 +199,38 @@
 		75F61C22212E630100D6EA42 /* ConmonUse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConmonUse.entitlements; sourceTree = "<group>"; };
 		75F61C26212FD98200D6EA42 /* MusicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicTool.h; sourceTree = "<group>"; };
 		75F61C27212FD98200D6EA42 /* MusicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTool.m; sourceTree = "<group>"; };
+		75F61C29212FE29900D6EA42 /* LrcDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcDataTool.h; sourceTree = "<group>"; };
+		75F61C2A212FE29900D6EA42 /* LrcDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcDataTool.m; sourceTree = "<group>"; };
+		75F61C2D212FE2D200D6EA42 /* LrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcModel.h; sourceTree = "<group>"; };
+		75F61C2E212FE2D200D6EA42 /* LrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcModel.m; sourceTree = "<group>"; };
+		75F61C30212FE99700D6EA42 /* TimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTool.h; sourceTree = "<group>"; };
+		75F61C31212FE99700D6EA42 /* TimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTool.m; sourceTree = "<group>"; };
+		75F61C33212FEC6500D6EA42 /* MusicOperationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicOperationTool.h; sourceTree = "<group>"; };
+		75F61C34212FEC6500D6EA42 /* MusicOperationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicOperationTool.m; sourceTree = "<group>"; };
+		75F61C36212FED2300D6EA42 /* MusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		75F61C37212FED2300D6EA42 /* MusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		75F61C39212FEDC400D6EA42 /* MusicMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicMessageModel.h; sourceTree = "<group>"; };
+		75F61C3A212FEDC400D6EA42 /* MusicMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicMessageModel.m; sourceTree = "<group>"; };
+		75F61C3C212FEEB100D6EA42 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		75F61C3E212FF91100D6EA42 /* MusicImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicImageTool.h; sourceTree = "<group>"; };
+		75F61C3F212FF91100D6EA42 /* MusicImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicImageTool.m; sourceTree = "<group>"; };
+		75F61C4121300AFC00D6EA42 /* QQMusic.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QQMusic.xcassets; sourceTree = "<group>"; };
+		75F61C442131516300D6EA42 /* MusicListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		75F61C452131516300D6EA42 /* MusicListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		75F61C47213390DD00D6EA42 /* MusicPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		75F61C48213390DD00D6EA42 /* MusicPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
+		75F61C4B2133A2E300D6EA42 /* CALayer+LayerPause.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+LayerPause.h"; sourceTree = "<group>"; };
+		75F61C4C2133A2E400D6EA42 /* CALayer+LayerPause.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LayerPause.m"; sourceTree = "<group>"; };
+		75F61C4F2133DCAA00D6EA42 /* LrcLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcLabel.h; sourceTree = "<group>"; };
+		75F61C502133DCAA00D6EA42 /* LrcLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcLabel.m; sourceTree = "<group>"; };
+		75F61C5321366FB500D6EA42 /* MyProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProxy.h; sourceTree = "<group>"; };
+		75F61C5421366FB500D6EA42 /* MyProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProxy.m; sourceTree = "<group>"; };
+		75F61C562138EFF500D6EA42 /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		75F61C572138EFF500D6EA42 /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		75F61C5A21392EFB00D6EA42 /* MeasureOperationTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureOperationTimeViewController.h; sourceTree = "<group>"; };
+		75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasureOperationTimeViewController.m; sourceTree = "<group>"; };
+		92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConmonUse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConmonUse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50603BEA47687D7A6824B171 /* libPods-ConmonUse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +259,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1BEB3DE88F2429E6C2EF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6266ABB64A8B18DD3A090867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */,
+				294C20F8683D69C368B11EE4 /* Pods-ConmonUse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7517AD0F2105CD13005A5675 /* 消息转发 */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +288,7 @@
 		7530006B20F3422400818120 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				75572C42213D2D360036D6C5 /* Graphic */,
 				7530008220F4AD9800818120 /* pic */,
 				7530009320F4AE2F00818120 /* CATransition中type的值.rtf */,
 				7530007420F48F6F00818120 /* CABasicAnimation的key值.rtfd */,
@@ -277,6 +366,30 @@
 			path = "可拖拽菜单列表";
 			sourceTree = "<group>";
 		};
+		75572C3B213CCEF60036D6C5 /* 密码学 */ = {
+			isa = PBXGroup;
+			children = (
+				75572C3C213CCF220036D6C5 /* AES128ViewController.h */,
+				75572C3D213CCF220036D6C5 /* AES128ViewController.m */,
+				75572C3F213CFD540036D6C5 /* Cryptography.h */,
+				75572C40213CFD540036D6C5 /* Cryptography.m */,
+			);
+			path = "密码学";
+			sourceTree = "<group>";
+		};
+		75572C42213D2D360036D6C5 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				75572C43213D2DA30036D6C5 /* AnimatingGradientLayer.h */,
+				75572C44213D2DA30036D6C5 /* AnimatingGradientLayer.m */,
+				75572C46213D2F2C0036D6C5 /* QRCode.h */,
+				75572C47213D2F2C0036D6C5 /* QRCode.m */,
+				75572C49213D3A4D0036D6C5 /* GraphicViewController.h */,
+				75572C4A213D3A4D0036D6C5 /* GraphicViewController.m */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
 		759F3DCE20EF375100DDE941 = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +397,8 @@
 				759F3DF520EF375100DDE941 /* ConmonUseTests */,
 				759F3E0020EF375200DDE941 /* ConmonUse UITests */,
 				759F3DD820EF375100DDE941 /* Products */,
+				6266ABB64A8B18DD3A090867 /* Pods */,
+				2D1BEB3DE88F2429E6C2EF42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -300,6 +415,7 @@
 		759F3DD920EF375100DDE941 /* ConmonUse */ = {
 			isa = PBXGroup;
 			children = (
+				75F61C4121300AFC00D6EA42 /* QQMusic.xcassets */,
 				75F61C22212E630100D6EA42 /* ConmonUse.entitlements */,
 				759F3E0F20EF649800DDE941 /* New Group */,
 				759F3DDA20EF375100DDE941 /* AppDelegate.h */,
@@ -337,7 +453,9 @@
 		759F3E0F20EF649800DDE941 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				75F61C1F212E61C700D6EA42 /* file */,
+				75572C3B213CCEF60036D6C5 /* 密码学 */,
+				75F61C5921392E9F00D6EA42 /* 基础功能 */,
+				75F61C5221366FB500D6EA42 /* customTool */,
 				75F61C16212D4A7B00D6EA42 /* 声音视屏 */,
 				753000A820F883B800818120 /* UI */,
 				753000A720F71FCD00818120 /* RunLoop监听 */,
@@ -387,16 +505,14 @@
 			path = "声音视屏";
 			sourceTree = "<group>";
 		};
-		75F61C1F212E61C700D6EA42 /* file */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = file;
-			sourceTree = "<group>";
-		};
 		75F61C24212FD63200D6EA42 /* 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				75F61C4E2133DC9100D6EA42 /* View */,
+				75F61C4A2133A29100D6EA42 /* Category */,
+				75F61C43213150F400D6EA42 /* Controller */,
+				75F61C3C212FEEB100D6EA42 /* Resources.bundle */,
+				75F61C2C212FE2C100D6EA42 /* Model */,
 				75F61C1C212D693800D6EA42 /* MusicPlayerViewController.h */,
 				75F61C1D212D693800D6EA42 /* MusicPlayerViewController.m */,
 				75F61C25212FD66F00D6EA42 /* tool */,
@@ -409,8 +525,82 @@
 			children = (
 				75F61C26212FD98200D6EA42 /* MusicTool.h */,
 				75F61C27212FD98200D6EA42 /* MusicTool.m */,
+				75F61C29212FE29900D6EA42 /* LrcDataTool.h */,
+				75F61C2A212FE29900D6EA42 /* LrcDataTool.m */,
+				75F61C30212FE99700D6EA42 /* TimeTool.h */,
+				75F61C31212FE99700D6EA42 /* TimeTool.m */,
+				75F61C33212FEC6500D6EA42 /* MusicOperationTool.h */,
+				75F61C34212FEC6500D6EA42 /* MusicOperationTool.m */,
+				75F61C3E212FF91100D6EA42 /* MusicImageTool.h */,
+				75F61C3F212FF91100D6EA42 /* MusicImageTool.m */,
 			);
 			path = tool;
+			sourceTree = "<group>";
+		};
+		75F61C2C212FE2C100D6EA42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C2D212FE2D200D6EA42 /* LrcModel.h */,
+				75F61C2E212FE2D200D6EA42 /* LrcModel.m */,
+				75F61C36212FED2300D6EA42 /* MusicModel.h */,
+				75F61C37212FED2300D6EA42 /* MusicModel.m */,
+				75F61C39212FEDC400D6EA42 /* MusicMessageModel.h */,
+				75F61C3A212FEDC400D6EA42 /* MusicMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75F61C43213150F400D6EA42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C442131516300D6EA42 /* MusicListViewController.h */,
+				75F61C452131516300D6EA42 /* MusicListViewController.m */,
+				75F61C47213390DD00D6EA42 /* MusicPlayViewController.h */,
+				75F61C48213390DD00D6EA42 /* MusicPlayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75F61C4A2133A29100D6EA42 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C4B2133A2E300D6EA42 /* CALayer+LayerPause.h */,
+				75F61C4C2133A2E400D6EA42 /* CALayer+LayerPause.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		75F61C4E2133DC9100D6EA42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C4F2133DCAA00D6EA42 /* LrcLabel.h */,
+				75F61C502133DCAA00D6EA42 /* LrcLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75F61C5221366FB500D6EA42 /* customTool */ = {
+			isa = PBXGroup;
+			children = (
+				75F61C5321366FB500D6EA42 /* MyProxy.h */,
+				75F61C5421366FB500D6EA42 /* MyProxy.m */,
+				75F61C562138EFF500D6EA42 /* NSObject+Test.h */,
+				75F61C572138EFF500D6EA42 /* NSObject+Test.m */,
+			);
+			path = customTool;
+			sourceTree = "<group>";
+		};
+		75F61C5921392E9F00D6EA42 /* 基础功能 */ = {
+			isa = PBXGroup;
+			children = (
+				75DC23A3213E24B00054AEFD /* Singleton.h */,
+				75F61C5A21392EFB00D6EA42 /* MeasureOperationTimeViewController.h */,
+				75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */,
+				75572C3821393DD50036D6C5 /* DispatchTimerViewController.h */,
+				75572C3921393DD50036D6C5 /* DispatchTimerViewController.m */,
+				75DC23A1213D3ED40054AEFD /* CommonUse.pch */,
+			);
+			path = "基础功能";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,9 +610,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 759F3E0620EF375200DDE941 /* Build configuration list for PBXNativeTarget "ConmonUse" */;
 			buildPhases = (
+				ECAC9B8818B3FC046F4182C1 /* [CP] Check Pods Manifest.lock */,
 				759F3DD320EF375100DDE941 /* Sources */,
 				759F3DD420EF375100DDE941 /* Frameworks */,
 				759F3DD520EF375100DDE941 /* Resources */,
+				666AED3590B821239D8FA093 /* [CP] Embed Pods Frameworks */,
+				AC0EE9A76F4EBB61DF949583 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -482,6 +675,9 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
@@ -531,12 +727,14 @@
 				7530009B20F4B3B600818120 /* 10.jpg in Resources */,
 				759F3DE720EF375100DDE941 /* Assets.xcassets in Resources */,
 				753000A520F608A200818120 /* green@2x.png in Resources */,
+				75F61C4221300AFC00D6EA42 /* QQMusic.xcassets in Resources */,
 				7530007520F48F6F00818120 /* CABasicAnimation的key值.rtfd in Resources */,
 				759F3E2520F2FD2500DDE941 /* CirclePortraitCell.xib in Resources */,
 				7530009920F4B3B600818120 /* 11.jpg in Resources */,
 				753000A620F608A200818120 /* gray@2x.png in Resources */,
 				7530009420F4AE2F00818120 /* CATransition中type的值.rtf in Resources */,
 				7530009020F4ADC000818120 /* 2.jpg in Resources */,
+				75F61C3D212FEEB100D6EA42 /* Resources.bundle in Resources */,
 				7530008E20F4ADC000818120 /* 3.jpg in Resources */,
 				7530008C20F4ADC000818120 /* 1.jpg in Resources */,
 				7530009A20F4B3B600818120 /* 9.jpg in Resources */,
@@ -565,25 +763,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		666AED3590B821239D8FA093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0EE9A76F4EBB61DF949583 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAC9B8818B3FC046F4182C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConmonUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		759F3DD320EF375100DDE941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F61C512133DCAB00D6EA42 /* LrcLabel.m in Sources */,
+				75F61C2F212FE2D200D6EA42 /* LrcModel.m in Sources */,
+				75F61C5C21392EFB00D6EA42 /* MeasureOperationTimeViewController.m in Sources */,
 				7530007820F49D8900818120 /* CATransitionViewController.m in Sources */,
+				75F61C35212FEC6500D6EA42 /* MusicOperationTool.m in Sources */,
+				75F61C462131516300D6EA42 /* MusicListViewController.m in Sources */,
+				75F61C582138EFF600D6EA42 /* NSObject+Test.m in Sources */,
+				75572C45213D2DA30036D6C5 /* AnimatingGradientLayer.m in Sources */,
 				759F3E1920EF692300DDE941 /* CircleProgress.m in Sources */,
 				753000BE20FECEFA00818120 /* QGMenuLayout.m in Sources */,
+				75F61C49213390DD00D6EA42 /* MusicPlayViewController.m in Sources */,
 				759F3DE520EF375100DDE941 /* ConmonUse.xcdatamodeld in Sources */,
+				75572C4B213D3A4D0036D6C5 /* GraphicViewController.m in Sources */,
 				753000B520FC6D2A00818120 /* QGMenuItem.m in Sources */,
+				75F61C40212FF91100D6EA42 /* MusicImageTool.m in Sources */,
+				75F61C2B212FE29900D6EA42 /* LrcDataTool.m in Sources */,
 				7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */,
 				759F3E1220EF658E00DDE941 /* FunctionListViewController.m in Sources */,
+				75F61C4D2133A2E400D6EA42 /* CALayer+LayerPause.m in Sources */,
 				759F3DDF20EF375100DDE941 /* ViewController.m in Sources */,
+				75572C3E213CCF220036D6C5 /* AES128ViewController.m in Sources */,
 				759F3DED20EF375100DDE941 /* main.m in Sources */,
 				7517ACFB21056D0A005A5675 /* KeyanimationViewController+add.m in Sources */,
+				75F61C32212FE99700D6EA42 /* TimeTool.m in Sources */,
 				753000BB20FDBD7000818120 /* QGMenuController.m in Sources */,
 				7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */,
+				75F61C5521366FB500D6EA42 /* MyProxy.m in Sources */,
+				75572C41213CFD540036D6C5 /* Cryptography.m in Sources */,
 				759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */,
 				7530007B20F4A69800818120 /* CATransitionView.m in Sources */,
+				75F61C3B212FEDC400D6EA42 /* MusicMessageModel.m in Sources */,
 				75F61C28212FD98200D6EA42 /* MusicTool.m in Sources */,
 				7530009F20F5EAC800818120 /* FilterAnimationViewController.m in Sources */,
 				759F3E1C20EF697500DDE941 /* CircleProgressView.m in Sources */,
@@ -591,6 +857,9 @@
 				75F61C19212D4AE600D6EA42 /* SoundEffectViewController.m in Sources */,
 				753000AF20FC3E9700818120 /* QGMenuView.m in Sources */,
 				759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */,
+				75572C48213D2F2C0036D6C5 /* QRCode.m in Sources */,
+				75572C3A21393DD50036D6C5 /* DispatchTimerViewController.m in Sources */,
+				75F61C38212FED2300D6EA42 /* MusicModel.m in Sources */,
 				7517AD122105CD4F005A5675 /* MessageForwardController.m in Sources */,
 				753000AC20F8877400818120 /* PanMenuViewController.m in Sources */,
 				759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */,
@@ -757,11 +1026,15 @@
 		};
 		759F3E0720EF375200DDE941 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ConmonUse/ConmonUse.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9Q77KWL3VP;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConmonUse/New Group/基础功能/CommonUse.pch";
 				INFOPLIST_FILE = ConmonUse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -775,11 +1048,15 @@
 		};
 		759F3E0820EF375200DDE941 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294C20F8683D69C368B11EE4 /* Pods-ConmonUse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ConmonUse/ConmonUse.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConmonUse/New Group/基础功能/CommonUse.pch";
 				INFOPLIST_FILE = ConmonUse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

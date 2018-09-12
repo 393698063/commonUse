@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension
+  - YYCategories
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 4dae8d53ac3eb605074ef9f93f3d6dfdeec0789d
+
+COCOAPODS: 1.4.0.rc.1

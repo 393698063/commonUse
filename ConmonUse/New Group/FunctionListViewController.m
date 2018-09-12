@@ -30,7 +30,11 @@
                  @"PourWaterViewController",
                  @"PanMenuViewController",
                  @"MessageForwardController",
-                 @"SoundEffectViewController"];
+                 @"SoundEffectViewController",
+                 @"MusicListViewController",
+                 @"MeasureOperationTimeViewController",
+                 @"DispatchTimerViewController",
+                 @"GraphicViewController"];
 }
 
 #pragma mark - UITableViewDelegate

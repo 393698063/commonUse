@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-
+static NSString * const kPlayFinishNotificationName = @"kPlayFinishNotificationName";
 @interface MusicTool : NSObject
 /** 音乐播放器*/
 @property (nonatomic, strong) AVAudioPlayer *player;
