@@ -42,6 +42,8 @@
     [button setTitle:@"dianjia" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(changeLayerProperty) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+
+    NSLog(@"%@",WEBSERVICE_URL);
     
 //    [self method:@"1",@"2",@"3",@"4", nil];
 //    
@@ -132,12 +134,12 @@
 -(IBAction)changeLayerProperty
 {
     //设置变化动画过程是否显示，默认为NO不显示
-//    [CATransaction setDisableActions:YES];
-    //设置圆角
-    layer.cornerRadius = (layer.cornerRadius == 0.0f) ? 30.0f : 0.0f;
-    //设置透明度
-    layer.opacity = (layer.opacity == 1.0f) ? 0.5f : 1.0f;
-//    [self showTransaction];
+//    [CATransaction setDisableActions:NO];
+//    //设置圆角
+//    layer.cornerRadius = (layer.cornerRadius == 0.0f) ? 30.0f : 0.0f;
+//    //设置透明度
+//    layer.opacity = (layer.opacity == 1.0f) ? 0.5f : 1.0f;
+    [self showTransaction];
 //    [self transcationNest];
 }
 

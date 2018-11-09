@@ -61,6 +61,7 @@ void dispatchTimer(id target, double timeInterval,void (^handler)(dispatch_sourc
     dispatch_resume(timer);
 }
 - (void)dispatchTimer{
+    // timer 为局部变量，timer不执行回调
     dispatch_queue_t queue = dispatch_queue_create(NULL, DISPATCH_QUEUE_CONCURRENT);
     dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
     int64_t delay = 5 * NSEC_PER_SEC;

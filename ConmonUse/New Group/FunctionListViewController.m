@@ -7,10 +7,12 @@
 //
 
 #import "FunctionListViewController.h"
+#import "ControllerTransitionScaleAnimation.h"
 
-@interface FunctionListViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface FunctionListViewController ()<UITableViewDelegate,UITableViewDataSource,UINavigationControllerDelegate>
 @property (nonatomic, strong) UITableView * tableView;
 @property (nonatomic, strong) NSArray * data;
+@property (nonatomic, weak) id <UINavigationControllerDelegate> navDelegate ;
 @end
 
 @implementation FunctionListViewController
@@ -34,7 +36,24 @@
                  @"MusicListViewController",
                  @"MeasureOperationTimeViewController",
                  @"DispatchTimerViewController",
-                 @"GraphicViewController"];
+                 @"GraphicViewController",
+                 @"PasteBoardViewController",
+                 @"ScrollReuseViewController",
+                 @"AVPlayerViewController",
+                 @"SiriShortCutManagerViewController",
+                 @"CustomPlayerViewController",
+                 @"ScrollViewShakeViewController"];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    _navDelegate = self.navigationController.delegate;
+    self.navigationController.delegate = self;
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    self.navigationController.delegate = _navDelegate;
 }
 
 #pragma mark - UITableViewDelegate
@@ -114,7 +133,7 @@
         default:
             break;
     }
-    //创建过渡动画
+//    //创建过渡动画
     CATransition *transiton = [CATransition animation];
     //类型,立方体
     transiton.type = type;
@@ -126,6 +145,19 @@
     vc.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController.view.layer addAnimation:transiton forKey:nil];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - 转场动画
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                  animationControllerForOperation:(UINavigationControllerOperation)operation
+                                               fromViewController:(UIViewController *)fromVC
+                                                 toViewController:(UIViewController *)toVC {
+    if ([toVC isKindOfClass:NSClassFromString(@"ScrollReuseViewController")] || [toVC isKindOfClass:NSClassFromString(@"FunctionListViewController")] ) {
+//        [toVC.view.layer removeAllAnimations];
+        [toVC.navigationController.view.layer removeAllAnimations];
+        return [ControllerTransitionScaleAnimation new];
+    }
+    return nil;
 }
 
 - (void)didReceiveMemoryWarning {

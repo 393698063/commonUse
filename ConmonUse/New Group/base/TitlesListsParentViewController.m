@@ -147,7 +147,7 @@
     
     CGPoint contentScrollViewContentOffset = self.contentScrollView.contentOffset;
     
-    contentScrollViewContentOffset.x = self.selectedBtn.tag * e_screen_width;
+    contentScrollViewContentOffset.x = self.selectedBtn.tag * [UIScreen mainScreen].bounds.size.width;
     
     // 设置完后才会调用, 如果指没有变, 是不会调用的
     self.contentScrollView.contentOffset = contentScrollViewContentOffset;
@@ -157,7 +157,7 @@
 }
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
-    NSInteger index = scrollView.contentOffset.x / e_screen_width;
+    NSInteger index = scrollView.contentOffset.x / [UIScreen mainScreen].bounds.size.width;
     
     UIViewController<TitlesListsParentViewControllerDelegate> *vc = self.childViewControllers[index];
     self.showingOnWindowController = vc;
@@ -175,7 +175,7 @@
     // 如果已经加载到contentScrollView上边的时候, 就不用再加了
     if(vc.view.superview) return;
     
-    vc.view.left = index * e_screen_width;
+    vc.view.left = index * [UIScreen mainScreen].bounds.size.width;
     vc.view.size = scrollView.size;
     
     [self.contentScrollView addSubview:vc.view];
@@ -342,12 +342,14 @@
 
 /** 正常情况下的颜色 */
 - (UIColor *)titleBtnNormalColor {
-    return e_color(0x333333);
+//    return e_color(0x333333);
+    return [UIColor cyanColor];
 }
 
 /** 选中的颜色 */
 - (UIColor *)titleBtnSelectedColor {
-    return e_color(0xff6131);
+//    return e_color(0xff6131);
+    return [UIColor grayColor];
 }
 
 

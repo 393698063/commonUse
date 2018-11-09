@@ -1,0 +1,12 @@
+//
+//  Release.xcconfig
+//  ConmonUse
+//
+//  Created by Qiao,Gang(RM) on 2018/10/3.
+//  Copyright © 2018年 jorgon. All rights reserved.
+//
+#include "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.release.xcconfig"
+APP_DISPLAY_NAME = CommonUse
+//网络请求baseurl
+REQUESTBASE_URL = @"http:\\/\\/10.20.100.1"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) WEBSERVICE_URL='$(REQUESTBASE_URL)'

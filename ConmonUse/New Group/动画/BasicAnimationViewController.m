@@ -32,6 +32,7 @@
     [self translationZ];
     [self translation];
     [self shake];
+    [self spring];
 }
 // 旋转动画
 - (void)rotateAnimationX{
@@ -134,7 +135,7 @@
     bsa.repeatCount = MAXFLOAT;
     bsa.duration = 4;
     bsa.beginTime = CACurrentMediaTime();
-    bsa.fromValue = [NSNumber numberWithFloat:1.0]; // 起始角度
+//    bsa.fromValue = [NSNumber numberWithFloat:1.0]; // 起始角度
     bsa.toValue = [NSNumber numberWithFloat:2]; // 终止角度
     [view.layer addAnimation:bsa forKey:nil];
 }
@@ -221,6 +222,78 @@
     [view.layer addAnimation:bsa forKey:nil];
 }
 
+- (void)spring {
+    UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 500, 80, 80)];
+    imageView.image = [UIImage imageNamed:@"feedGold"];
+    [self.view addSubview:imageView];
+    imageView.transform = CGAffineTransformScale(imageView.transform, 0.5, 0.5);
+    [UIView animateWithDuration:1 delay:0
+         usingSpringWithDamping:0.2
+          initialSpringVelocity:1
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         imageView.frame = CGRectMake(100, 510, 80, 80);
+                         imageView.transform = CGAffineTransformScale(imageView.transform, 1, 1);;
+                     } completion:^(BOOL finished) {
+                         
+                     }];
+    
+    
+    UIImageView * imageView1 = [[UIImageView alloc] initWithFrame:CGRectMake(200, 500, 80, 80)];
+    imageView1.image = [UIImage imageNamed:@"feedGold"];
+    [self.view addSubview:imageView1];
+    shakerAnimation(imageView1, 2, 20);
+    [self springScale];
+}
+
+- (void)springScale {
+    UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 500, 40, 40)];
+    imageView.image = [UIImage imageNamed:@"feedGold"];
+    [self.view addSubview:imageView];
+//    CABasicAnimation * bsa = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+//    bsa.repeatCount = MAXFLOAT;
+//    bsa.duration = 4;
+//    bsa.beginTime = CACurrentMediaTime();
+//    bsa.fromValue = [NSNumber numberWithFloat:0.1]; // 起始角度
+//    bsa.toValue = [NSNumber numberWithFloat:1]; // 终止角度
+    CAKeyframeAnimation * bsa = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
+    bsa.values = @[@0.3, @0.5, @0.8, @1];
+    bsa.keyTimes = @[@0, @0.4, @0.8, @1];
+    bsa.duration = 2;
+    bsa.repeatCount = MAXFLOAT;
+//    [imageView.layer addAnimation:bsa forKey:@""];
+    
+    CAKeyframeAnimation * anima = spring(imageView, 2, 10);
+    
+    CAAnimationGroup * group = [[CAAnimationGroup alloc] init];
+    group.duration = 2;
+    group.animations = @[bsa,anima];
+    group.repeatCount = MAXFLOAT;
+    [imageView.layer addAnimation:group forKey:@""];
+}
+
+CAKeyframeAnimation * spring (UIView *view ,NSTimeInterval duration,float height){
+    CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.translation.y"];
+    CGFloat currentTx = view.transform.ty;
+    animation.duration = duration;
+    //    animation.autoreverses = YES;
+    animation.values = @[@(currentTx), @(currentTx + height), @(currentTx-height/3*2), @(currentTx + height/3*2), @(currentTx -height/3), @(currentTx + height/3), @(currentTx)];
+    animation.keyTimes = @[ @(0), @(0.225), @(0.425), @(0.6), @(0.75), @(0.875), @(1) ];
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    return animation;
+}
+// 重力弹跳动画效果
+void shakerAnimation (UIView *view ,NSTimeInterval duration,float height){
+    CAKeyframeAnimation * animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.translation.y"];
+    CGFloat currentTx = view.transform.ty;
+    animation.duration = duration;
+//    animation.autoreverses = YES;
+    animation.values = @[@(currentTx), @(currentTx + height), @(currentTx-height/3*2), @(currentTx + height/3*2), @(currentTx -height/3), @(currentTx + height/3), @(currentTx)];
+    animation.keyTimes = @[ @(0), @(0.225), @(0.425), @(0.6), @(0.75), @(0.875), @(1) ];
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    [view.layer addAnimation:animation forKey:@"kViewShakerAnimationKey"];
+}
+
 // 移动动画
 - (void)moveAnimation{
     UIView * myView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, 50, 50)];
@@ -230,15 +303,17 @@
     CABasicAnimation * bsAnimation = [CABasicAnimation animationWithKeyPath:@"position"];
     bsAnimation.duration = 4;
     
-    bsAnimation.autoreverses = YES;
+//    bsAnimation.autoreverses = YES;
     
-    bsAnimation.repeatCount = MAXFLOAT;
+//    bsAnimation.repeatCount = MAXFLOAT;
     /*
      The begin time of the object, in relation to its parent object, if
      * applicable. Defaults to 0. */
     bsAnimation.beginTime = CACurrentMediaTime();
     bsAnimation.fromValue = [NSValue valueWithCGPoint:myView.layer.position];// 起始帧
     bsAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(300, 300)]; // 终了帧
+    bsAnimation.fillMode = kCAFillModeBoth;
+    bsAnimation.removedOnCompletion = false;
     [myView.layer addAnimation:bsAnimation forKey:nil];
 }
 

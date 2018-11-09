@@ -23,10 +23,19 @@
 
 
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler{
-   
-    NSURL * url = userActivity.webpageURL;
-    NSLog(@"外部打开的URL：%@",url.absoluteString);
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity
+ restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler{
+    NSLog(@"%@",userActivity.activityType);
+    if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+        // 通用链接
+        NSURL * url = userActivity.webpageURL;
+        NSLog(@"外部打开的URL：%@",url.absoluteString);
+    } else if ([userActivity.activityType isEqualToString:@"IntentIntent"]) {
+        NSLog(@"请处理intent");
+    } else if ([userActivity.activityType isEqualToString:@"SecondIntentIntent"]) {
+        NSLog(@"请处理secondintent");
+    }
+    
     return YES;
 }
 

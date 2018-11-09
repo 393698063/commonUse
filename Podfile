@@ -6,4 +6,6 @@ pod 'Masonry'
 pod 'MJExtension'
 #常用分类
 pod 'YYCategories'
+#播放器
+#pod 'MobileVLCKit'
 end

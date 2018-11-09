@@ -3,12 +3,12 @@
 //  ConmonUse
 //
 //  Created by jorgon on 09/07/18.
-//  Copyright © 2018年 jorgon. All rights reserved.
+//  
 //
 #define kToDegress(angle) ((angle)*M_PI/180)
 #import "KeyanimationViewController.h"
 
-@interface KeyanimationViewController ()
+@interface KeyanimationViewController ()<CAAnimationDelegate>
 {
     UIView * _keyAnimationView;
     NSString * _name;
@@ -32,22 +32,22 @@
     [self keyAnimation];
     
     [self keyAnimationWithPath];
-    
+//
     [self directionShake];
     [self angleShake];
+//
+//    UIView * view =[[UIView alloc] initWithFrame:CGRectMake(50, 450, 30, 30)];
+//    view.backgroundColor = [UIColor darkGrayColor];
+//    UITapGestureRecognizer * t = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tell)];
+////        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(@"tell")];
+//        [view addGestureRecognizer:t];
+//    [self.view addSubview:view];
+//    view.layer.transform =  CATransform3DIdentity;
+//    [UIView animateWithDuration:4.0f animations:^{
+//        view.layer.transform = CATransform3DMakeTranslation(111, 111, 110);
+//    }];
     
-    UIView * view =[[UIView alloc] initWithFrame:CGRectMake(50, 450, 30, 30)];
-    view.backgroundColor = [UIColor darkGrayColor];
-    UITapGestureRecognizer * t = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tell)];
-//        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(@"tell")];
-        [view addGestureRecognizer:t];
-    [self.view addSubview:view];
-    view.layer.transform =  CATransform3DIdentity;
-    [UIView animateWithDuration:4.0f animations:^{
-        view.layer.transform = CATransform3DMakeTranslation(111, 111, 110);
-    }];
-    
-    
+    [self reverseAnimation];
     
 }
 - (void)tell{
@@ -222,6 +222,35 @@
     //重复次数
     keyframeAni.repeatCount = MAXFLOAT;
     [shakeView.layer addAnimation:keyframeAni forKey:nil];
+    
+}
+
+- (void)reverseAnimation {
+//    UIView * animaView = [[UIView alloc] initWithFrame:CGRectMake(100, 450, 50, 50)];
+//    UIView * animaView1 = [[UIView alloc] initWithFrame:CGRectMake(100, 450, 50, 50)];
+//    animaView1.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:.3];
+//    animaView.backgroundColor = [UIColor yellowColor];
+//    [self.view addSubview:animaView1];
+//    [self.view addSubview:animaView];
+    self.view.backgroundColor = [UIColor blackColor];
+    CAKeyframeAnimation * fromAnima = [CAKeyframeAnimation animationWithKeyPath:@"position.y"];
+    CGPoint orgin = self.view.layer.position;
+    fromAnima.duration = 0.64 * 2;
+    fromAnima.repeatCount = MAXFLOAT;
+    fromAnima.removedOnCompletion = YES;
+    fromAnima.values = @[@(orgin.y),
+                         @(orgin.y - 100),
+                         @(orgin.y - 100),
+                            @(orgin.y)];
+    fromAnima.keyTimes = @[@0,@(0.3),@(0.7),@(1)];
+    fromAnima.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],
+                                  [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],
+                                  [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+    fromAnima.delegate = self;
+    [self.view.layer addAnimation:fromAnima forKey:@"from"];
+}
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
     
 }
 

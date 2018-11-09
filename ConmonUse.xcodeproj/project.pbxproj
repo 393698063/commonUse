@@ -81,6 +81,41 @@
 		75F61C5521366FB500D6EA42 /* MyProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5421366FB500D6EA42 /* MyProxy.m */; };
 		75F61C582138EFF600D6EA42 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C572138EFF500D6EA42 /* NSObject+Test.m */; };
 		75F61C5C21392EFB00D6EA42 /* MeasureOperationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */; };
+		9C5A285F216D9A7C003118CF /* TitlesListsParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A285D216D9A7C003118CF /* TitlesListsParentViewController.m */; };
+		9C5A2863216DDFE3003118CF /* VLCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A2862216DDFE3003118CF /* VLCPlayerViewController.m */; };
+		9C5A2866216F16EC003118CF /* ControllerTransitionScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A2865216F16EC003118CF /* ControllerTransitionScaleAnimation.m */; };
+		9C5A286921709D6D003118CF /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A286821709D6D003118CF /* AVPlayerViewController.m */; };
+		9C5A288721733B46003118CF /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A286F217326B9003118CF /* IntentsUI.framework */; };
+		9C5A288B21733B46003118CF /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A288A21733B46003118CF /* IntentViewController.m */; };
+		9C5A288E21733B46003118CF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A288C21733B46003118CF /* MainInterface.storyboard */; };
+		9C5A289221733B46003118CF /* CommonUseIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9C5A288621733B46003118CF /* CommonUseIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C5A289A217343AD003118CF /* SiriShortCutManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A2899217343AD003118CF /* SiriShortCutManagerViewController.m */; };
+		9C687A6D217EB855005FDFD8 /* CustomPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */; };
+		9C687A70218065C6005FDFD8 /* ScrollViewShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */; };
+		9C8526AB21776E9C0071205B /* CommonUse.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */; };
+		9C8526AF217DBB500071205B /* SBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526AE217DBB4E0071205B /* SBPlayer.m */; };
+		9C8526B8217DBCDB0071205B /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B1217DBCDB0071205B /* pause@2x.png */; };
+		9C8526B9217DBCDB0071205B /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B2217DBCDB0071205B /* play@2x.png */; };
+		9C8526BA217DBCDB0071205B /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B3217DBCDB0071205B /* knob.png */; };
+		9C8526BB217DBCDB0071205B /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B4217DBCDB0071205B /* pause.png */; };
+		9C8526BC217DBCDB0071205B /* full_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B5217DBCDB0071205B /* full_screen.png */; };
+		9C8526BD217DBCDB0071205B /* full_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B6217DBCDB0071205B /* full_screen@2x.png */; };
+		9C8526BE217DBCDB0071205B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B7217DBCDB0071205B /* play.png */; };
+		9C8526C1217DBF970071205B /* SBControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526C0217DBF970071205B /* SBControlView.m */; };
+		9C8526C5217DC7F80071205B /* SBPauseOrPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526C4217DC7F80071205B /* SBPauseOrPlayView.m */; };
+		9CDEB5332164FFE90020B6A4 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB5322164FFE90020B6A4 /* Debug.xcconfig */; };
+		9CDEB5352164FFF70020B6A4 /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB5342164FFF70020B6A4 /* Dev.xcconfig */; };
+		9CDEB538216500230020B6A4 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB537216500230020B6A4 /* Release.xcconfig */; };
+		9CDEB53E2167A5D70020B6A4 /* icon120b.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB53A2167A5D60020B6A4 /* icon120b.png */; };
+		9CDEB53F2167A5D70020B6A4 /* icon_cash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB53C2167A5D60020B6A4 /* icon_cash@3x.png */; };
+		9CDEB5402167A5D70020B6A4 /* icon_cash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEB53D2167A5D60020B6A4 /* icon_cash@2x.png */; };
+		9CEAC9CD214E5790008B63FE /* PasteBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAC9CC214E5790008B63FE /* PasteBoardViewController.m */; };
+		9CEAF540215331C9008B63FE /* ScrollReuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAF53F215331C9008B63FE /* ScrollReuseViewController.m */; };
+		9CEAF54821534290008B63FE /* SegmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAF5412153428D008B63FE /* SegmentCollectionViewCell.m */; };
+		9CEAF54921534290008B63FE /* NSString+Exten.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAF5432153428E008B63FE /* NSString+Exten.m */; };
+		9CEAF54A21534290008B63FE /* SegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CEAF5442153428F008B63FE /* SegmentCollectionViewCell.xib */; };
+		9CEAF54B21534290008B63FE /* SegmentControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAF5452153428F008B63FE /* SegmentControlView.m */; };
+		9CEAF54E215342E3008B63FE /* MyChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAF54D215342E3008B63FE /* MyChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +133,28 @@
 			remoteGlobalIDString = 759F3DD620EF375100DDE941;
 			remoteInfo = ConmonUse;
 		};
+		9C5A289021733B46003118CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759F3DCF20EF375100DDE941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5A288521733B46003118CF;
+			remoteInfo = CommonUseIntents;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C5A2880217326BA003118CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C5A289221733B46003118CF /* CommonUseIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		294C20F8683D69C368B11EE4 /* Pods-ConmonUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConmonUse.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +286,62 @@
 		75F61C5A21392EFB00D6EA42 /* MeasureOperationTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureOperationTimeViewController.h; sourceTree = "<group>"; };
 		75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasureOperationTimeViewController.m; sourceTree = "<group>"; };
 		92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConmonUse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A285D216D9A7C003118CF /* TitlesListsParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitlesListsParentViewController.m; sourceTree = "<group>"; };
+		9C5A285E216D9A7C003118CF /* TitlesListsParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitlesListsParentViewController.h; sourceTree = "<group>"; };
+		9C5A2861216DDFE3003118CF /* VLCPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLCPlayerViewController.h; sourceTree = "<group>"; };
+		9C5A2862216DDFE3003118CF /* VLCPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCPlayerViewController.m; sourceTree = "<group>"; };
+		9C5A2864216F16EC003118CF /* ControllerTransitionScaleAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerTransitionScaleAnimation.h; sourceTree = "<group>"; };
+		9C5A2865216F16EC003118CF /* ControllerTransitionScaleAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerTransitionScaleAnimation.m; sourceTree = "<group>"; };
+		9C5A286721709D6D003118CF /* AVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
+		9C5A286821709D6D003118CF /* AVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
+		9C5A286F217326B9003118CF /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		9C5A288621733B46003118CF /* CommonUseIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CommonUseIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A288921733B46003118CF /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		9C5A288A21733B46003118CF /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		9C5A288D21733B46003118CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9C5A288F21733B46003118CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5A2898217343AD003118CF /* SiriShortCutManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiriShortCutManagerViewController.h; sourceTree = "<group>"; };
+		9C5A2899217343AD003118CF /* SiriShortCutManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiriShortCutManagerViewController.m; sourceTree = "<group>"; };
+		9C687A6B217EB855005FDFD8 /* CustomPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPlayerViewController.h; sourceTree = "<group>"; };
+		9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPlayerViewController.m; sourceTree = "<group>"; };
+		9C687A6E218065C6005FDFD8 /* ScrollViewShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewShakeViewController.h; sourceTree = "<group>"; };
+		9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewShakeViewController.m; sourceTree = "<group>"; };
+		9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CommonUse.intentdefinition; sourceTree = "<group>"; };
+		9C8526AD217DBB4E0071205B /* SBPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPlayer.h; sourceTree = "<group>"; };
+		9C8526AE217DBB4E0071205B /* SBPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPlayer.m; sourceTree = "<group>"; };
+		9C8526B1217DBCDB0071205B /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		9C8526B2217DBCDB0071205B /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		9C8526B3217DBCDB0071205B /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
+		9C8526B4217DBCDB0071205B /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		9C8526B5217DBCDB0071205B /* full_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full_screen.png; sourceTree = "<group>"; };
+		9C8526B6217DBCDB0071205B /* full_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_screen@2x.png"; sourceTree = "<group>"; };
+		9C8526B7217DBCDB0071205B /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		9C8526BF217DBF970071205B /* SBControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBControlView.h; sourceTree = "<group>"; };
+		9C8526C0217DBF970071205B /* SBControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBControlView.m; sourceTree = "<group>"; };
+		9C8526C2217DC42E0071205B /* SBCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCommonHeader.h; sourceTree = "<group>"; };
+		9C8526C3217DC7F80071205B /* SBPauseOrPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPauseOrPlayView.h; sourceTree = "<group>"; };
+		9C8526C4217DC7F80071205B /* SBPauseOrPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPauseOrPlayView.m; sourceTree = "<group>"; };
+		9CDEB5322164FFE90020B6A4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		9CDEB5342164FFF70020B6A4 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		9CDEB537216500230020B6A4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9CDEB53A2167A5D60020B6A4 /* icon120b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120b.png; sourceTree = "<group>"; };
+		9CDEB53C2167A5D60020B6A4 /* icon_cash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cash@3x.png"; sourceTree = "<group>"; };
+		9CDEB53D2167A5D60020B6A4 /* icon_cash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cash@2x.png"; sourceTree = "<group>"; };
+		9CDEB5412167A6E50020B6A4 /* configInroduce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = configInroduce.h; sourceTree = "<group>"; };
+		9CEAC9CB214E5790008B63FE /* PasteBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasteBoardViewController.h; sourceTree = "<group>"; };
+		9CEAC9CC214E5790008B63FE /* PasteBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteBoardViewController.m; sourceTree = "<group>"; };
+		9CEAF53E215331C9008B63FE /* ScrollReuseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollReuseViewController.h; sourceTree = "<group>"; };
+		9CEAF53F215331C9008B63FE /* ScrollReuseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollReuseViewController.m; sourceTree = "<group>"; };
+		9CEAF5412153428D008B63FE /* SegmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCollectionViewCell.m; sourceTree = "<group>"; };
+		9CEAF5422153428E008B63FE /* SegmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCollectionViewCell.h; sourceTree = "<group>"; };
+		9CEAF5432153428E008B63FE /* NSString+Exten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exten.m"; sourceTree = "<group>"; };
+		9CEAF5442153428F008B63FE /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		9CEAF5452153428F008B63FE /* SegmentControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentControlView.m; sourceTree = "<group>"; };
+		9CEAF5462153428F008B63FE /* NSString+Exten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exten.h"; sourceTree = "<group>"; };
+		9CEAF54721534290008B63FE /* SegmentControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentControlView.h; sourceTree = "<group>"; };
+		9CEAF54C215342E2008B63FE /* MyChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChildViewController.h; sourceTree = "<group>"; };
+		9CEAF54D215342E3008B63FE /* MyChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChildViewController.m; sourceTree = "<group>"; };
+		C22440C37CBA4743C2C0986B /* Pods-ConmonUse.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConmonUse.dev.xcconfig"; path = "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.dev.xcconfig"; sourceTree = "<group>"; };
 		F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConmonUse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,6 +368,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5A288321733B46003118CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A288721733B46003118CF /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -263,6 +383,7 @@
 			isa = PBXGroup;
 			children = (
 				92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */,
+				9C5A286F217326B9003118CF /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,6 +393,7 @@
 			children = (
 				F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */,
 				294C20F8683D69C368B11EE4 /* Pods-ConmonUse.release.xcconfig */,
+				C22440C37CBA4743C2C0986B /* Pods-ConmonUse.dev.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -306,6 +428,10 @@
 				7530009E20F5EAC800818120 /* FilterAnimationViewController.m */,
 				753000A020F6080500818120 /* PourWaterViewController.h */,
 				753000A120F6080500818120 /* PourWaterViewController.m */,
+				9C5A2864216F16EC003118CF /* ControllerTransitionScaleAnimation.h */,
+				9C5A2865216F16EC003118CF /* ControllerTransitionScaleAnimation.m */,
+				9C687A6E218065C6005FDFD8 /* ScrollViewShakeViewController.h */,
+				9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -342,6 +468,7 @@
 		753000A820F883B800818120 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9CEAF53D21533194008B63FE /* ScrollViewReuse */,
 				753000A920F8866B00818120 /* 可拖拽菜单列表 */,
 			);
 			path = UI;
@@ -396,6 +523,7 @@
 				759F3DD920EF375100DDE941 /* ConmonUse */,
 				759F3DF520EF375100DDE941 /* ConmonUseTests */,
 				759F3E0020EF375200DDE941 /* ConmonUse UITests */,
+				9C5A288821733B46003118CF /* CommonUseIntents */,
 				759F3DD820EF375100DDE941 /* Products */,
 				6266ABB64A8B18DD3A090867 /* Pods */,
 				2D1BEB3DE88F2429E6C2EF42 /* Frameworks */,
@@ -408,6 +536,7 @@
 				759F3DD720EF375100DDE941 /* ConmonUse.app */,
 				759F3DF220EF375100DDE941 /* ConmonUseTests.xctest */,
 				759F3DFD20EF375200DDE941 /* ConmonUseUITests.xctest */,
+				9C5A288621733B46003118CF /* CommonUseIntents.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,6 +544,7 @@
 		759F3DD920EF375100DDE941 /* ConmonUse */ = {
 			isa = PBXGroup;
 			children = (
+				9CDEB52E2164FF410020B6A4 /* configuration */,
 				75F61C4121300AFC00D6EA42 /* QQMusic.xcassets */,
 				75F61C22212E630100D6EA42 /* ConmonUse.entitlements */,
 				759F3E0F20EF649800DDE941 /* New Group */,
@@ -453,6 +583,7 @@
 		759F3E0F20EF649800DDE941 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				9C5A285C216D9A7C003118CF /* base */,
 				75572C3B213CCEF60036D6C5 /* 密码学 */,
 				75F61C5921392E9F00D6EA42 /* 基础功能 */,
 				75F61C5221366FB500D6EA42 /* customTool */,
@@ -497,6 +628,7 @@
 		75F61C16212D4A7B00D6EA42 /* 声音视屏 */ = {
 			isa = PBXGroup;
 			children = (
+				9C5A2860216DDFA8003118CF /* 视屏播放器 */,
 				75F61C24212FD63200D6EA42 /* 音乐播放器 */,
 				75F61C1A212D5A9C00D6EA42 /* test.mp3 */,
 				75F61C17212D4AE600D6EA42 /* SoundEffectViewController.h */,
@@ -593,14 +725,146 @@
 		75F61C5921392E9F00D6EA42 /* 基础功能 */ = {
 			isa = PBXGroup;
 			children = (
+				9CC1CA642192D3050010A4B4 /* ProtocolProperty */,
+				9C5A28972173437B003118CF /* SiriShotcut */,
 				75DC23A3213E24B00054AEFD /* Singleton.h */,
 				75F61C5A21392EFB00D6EA42 /* MeasureOperationTimeViewController.h */,
 				75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */,
 				75572C3821393DD50036D6C5 /* DispatchTimerViewController.h */,
 				75572C3921393DD50036D6C5 /* DispatchTimerViewController.m */,
 				75DC23A1213D3ED40054AEFD /* CommonUse.pch */,
+				9CEAC9CB214E5790008B63FE /* PasteBoardViewController.h */,
+				9CEAC9CC214E5790008B63FE /* PasteBoardViewController.m */,
+				9CDEB5412167A6E50020B6A4 /* configInroduce.h */,
 			);
 			path = "基础功能";
+			sourceTree = "<group>";
+		};
+		9C5A285C216D9A7C003118CF /* base */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A285D216D9A7C003118CF /* TitlesListsParentViewController.m */,
+				9C5A285E216D9A7C003118CF /* TitlesListsParentViewController.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		9C5A2860216DDFA8003118CF /* 视屏播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				9C8526AC217DBB1F0071205B /* 自定义播放器 */,
+				9C687A6B217EB855005FDFD8 /* CustomPlayerViewController.h */,
+				9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */,
+				9C5A2861216DDFE3003118CF /* VLCPlayerViewController.h */,
+				9C5A2862216DDFE3003118CF /* VLCPlayerViewController.m */,
+				9C5A286721709D6D003118CF /* AVPlayerViewController.h */,
+				9C5A286821709D6D003118CF /* AVPlayerViewController.m */,
+			);
+			path = "视屏播放器";
+			sourceTree = "<group>";
+		};
+		9C5A288821733B46003118CF /* CommonUseIntents */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A288921733B46003118CF /* IntentViewController.h */,
+				9C5A288A21733B46003118CF /* IntentViewController.m */,
+				9C5A288C21733B46003118CF /* MainInterface.storyboard */,
+				9C5A288F21733B46003118CF /* Info.plist */,
+			);
+			path = CommonUseIntents;
+			sourceTree = "<group>";
+		};
+		9C5A28972173437B003118CF /* SiriShotcut */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A2898217343AD003118CF /* SiriShortCutManagerViewController.h */,
+				9C5A2899217343AD003118CF /* SiriShortCutManagerViewController.m */,
+				9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */,
+			);
+			path = SiriShotcut;
+			sourceTree = "<group>";
+		};
+		9C8526AC217DBB1F0071205B /* 自定义播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				9C8526B0217DBCDA0071205B /* Source */,
+				9C8526AD217DBB4E0071205B /* SBPlayer.h */,
+				9C8526AE217DBB4E0071205B /* SBPlayer.m */,
+				9C8526BF217DBF970071205B /* SBControlView.h */,
+				9C8526C0217DBF970071205B /* SBControlView.m */,
+				9C8526C3217DC7F80071205B /* SBPauseOrPlayView.h */,
+				9C8526C4217DC7F80071205B /* SBPauseOrPlayView.m */,
+				9C8526C2217DC42E0071205B /* SBCommonHeader.h */,
+			);
+			path = "自定义播放器";
+			sourceTree = "<group>";
+		};
+		9C8526B0217DBCDA0071205B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9C8526B1217DBCDB0071205B /* pause@2x.png */,
+				9C8526B2217DBCDB0071205B /* play@2x.png */,
+				9C8526B3217DBCDB0071205B /* knob.png */,
+				9C8526B4217DBCDB0071205B /* pause.png */,
+				9C8526B5217DBCDB0071205B /* full_screen.png */,
+				9C8526B6217DBCDB0071205B /* full_screen@2x.png */,
+				9C8526B7217DBCDB0071205B /* play.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9CC1CA642192D3050010A4B4 /* ProtocolProperty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProtocolProperty;
+			sourceTree = "<group>";
+		};
+		9CDEB52E2164FF410020B6A4 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEB53B2167A5D60020B6A4 /* DynamicAppIcon */,
+				9CDEB5392167A5D60020B6A4 /* tt */,
+				9CDEB5322164FFE90020B6A4 /* Debug.xcconfig */,
+				9CDEB5342164FFF70020B6A4 /* Dev.xcconfig */,
+				9CDEB537216500230020B6A4 /* Release.xcconfig */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		9CDEB5392167A5D60020B6A4 /* tt */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEB53A2167A5D60020B6A4 /* icon120b.png */,
+			);
+			path = tt;
+			sourceTree = "<group>";
+		};
+		9CDEB53B2167A5D60020B6A4 /* DynamicAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEB53C2167A5D60020B6A4 /* icon_cash@3x.png */,
+				9CDEB53D2167A5D60020B6A4 /* icon_cash@2x.png */,
+			);
+			path = DynamicAppIcon;
+			sourceTree = "<group>";
+		};
+		9CEAF53D21533194008B63FE /* ScrollViewReuse */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAF54C215342E2008B63FE /* MyChildViewController.h */,
+				9CEAF54D215342E3008B63FE /* MyChildViewController.m */,
+				9CEAF53E215331C9008B63FE /* ScrollReuseViewController.h */,
+				9CEAF53F215331C9008B63FE /* ScrollReuseViewController.m */,
+				9CEAF5462153428F008B63FE /* NSString+Exten.h */,
+				9CEAF5432153428E008B63FE /* NSString+Exten.m */,
+				9CEAF5422153428E008B63FE /* SegmentCollectionViewCell.h */,
+				9CEAF5412153428D008B63FE /* SegmentCollectionViewCell.m */,
+				9CEAF5442153428F008B63FE /* SegmentCollectionViewCell.xib */,
+				9CEAF54721534290008B63FE /* SegmentControlView.h */,
+				9CEAF5452153428F008B63FE /* SegmentControlView.m */,
+			);
+			path = ScrollViewReuse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -614,12 +878,12 @@
 				759F3DD320EF375100DDE941 /* Sources */,
 				759F3DD420EF375100DDE941 /* Frameworks */,
 				759F3DD520EF375100DDE941 /* Resources */,
-				666AED3590B821239D8FA093 /* [CP] Embed Pods Frameworks */,
-				AC0EE9A76F4EBB61DF949583 /* [CP] Copy Pods Resources */,
+				9C5A2880217326BA003118CF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C5A289121733B46003118CF /* PBXTargetDependency */,
 			);
 			name = ConmonUse;
 			productName = ConmonUse;
@@ -662,6 +926,23 @@
 			productReference = 759F3DFD20EF375200DDE941 /* ConmonUseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9C5A288521733B46003118CF /* CommonUseIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5A289321733B46003118CF /* Build configuration list for PBXNativeTarget "CommonUseIntents" */;
+			buildPhases = (
+				9C5A288221733B46003118CF /* Sources */,
+				9C5A288321733B46003118CF /* Frameworks */,
+				9C5A288421733B46003118CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonUseIntents;
+			productName = CommonUseIntents;
+			productReference = 9C5A288621733B46003118CF /* CommonUseIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -675,10 +956,16 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
 							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
 								enabled = 1;
 							};
 						};
@@ -692,6 +979,10 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 759F3DD620EF375100DDE941;
+					};
+					9C5A288521733B46003118CF = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -711,6 +1002,7 @@
 				759F3DD620EF375100DDE941 /* ConmonUse */,
 				759F3DF120EF375100DDE941 /* ConmonUseTests */,
 				759F3DFC20EF375200DDE941 /* ConmonUseUITests */,
+				9C5A288521733B46003118CF /* CommonUseIntents */,
 			);
 		};
 /* End PBXProject section */
@@ -727,23 +1019,37 @@
 				7530009B20F4B3B600818120 /* 10.jpg in Resources */,
 				759F3DE720EF375100DDE941 /* Assets.xcassets in Resources */,
 				753000A520F608A200818120 /* green@2x.png in Resources */,
+				9C8526BA217DBCDB0071205B /* knob.png in Resources */,
+				9C8526B8217DBCDB0071205B /* pause@2x.png in Resources */,
+				9C8526B9217DBCDB0071205B /* play@2x.png in Resources */,
+				9CDEB53E2167A5D70020B6A4 /* icon120b.png in Resources */,
 				75F61C4221300AFC00D6EA42 /* QQMusic.xcassets in Resources */,
+				9CDEB5332164FFE90020B6A4 /* Debug.xcconfig in Resources */,
+				9CDEB5402167A5D70020B6A4 /* icon_cash@2x.png in Resources */,
 				7530007520F48F6F00818120 /* CABasicAnimation的key值.rtfd in Resources */,
 				759F3E2520F2FD2500DDE941 /* CirclePortraitCell.xib in Resources */,
 				7530009920F4B3B600818120 /* 11.jpg in Resources */,
+				9C8526BB217DBCDB0071205B /* pause.png in Resources */,
+				9CDEB538216500230020B6A4 /* Release.xcconfig in Resources */,
 				753000A620F608A200818120 /* gray@2x.png in Resources */,
 				7530009420F4AE2F00818120 /* CATransition中type的值.rtf in Resources */,
 				7530009020F4ADC000818120 /* 2.jpg in Resources */,
 				75F61C3D212FEEB100D6EA42 /* Resources.bundle in Resources */,
 				7530008E20F4ADC000818120 /* 3.jpg in Resources */,
+				9CDEB5352164FFF70020B6A4 /* Dev.xcconfig in Resources */,
 				7530008C20F4ADC000818120 /* 1.jpg in Resources */,
 				7530009A20F4B3B600818120 /* 9.jpg in Resources */,
 				75F61C1B212D5A9C00D6EA42 /* test.mp3 in Resources */,
 				7530009C20F4B3B600818120 /* 12.jpg in Resources */,
+				9CEAF54A21534290008B63FE /* SegmentCollectionViewCell.xib in Resources */,
 				7530008D20F4ADC000818120 /* 4.jpg in Resources */,
+				9C8526BE217DBCDB0071205B /* play.png in Resources */,
 				7530009120F4ADC000818120 /* 7.jpg in Resources */,
+				9C8526BC217DBCDB0071205B /* full_screen.png in Resources */,
 				759F3DE220EF375100DDE941 /* Main.storyboard in Resources */,
+				9C8526BD217DBCDB0071205B /* full_screen@2x.png in Resources */,
 				7530008B20F4ADC000818120 /* 8.jpg in Resources */,
+				9CDEB53F2167A5D70020B6A4 /* icon_cash@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,39 +1067,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5A288421733B46003118CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A288E21733B46003118CF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		666AED3590B821239D8FA093 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC0EE9A76F4EBB61DF949583 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConmonUse/Pods-ConmonUse-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ECAC9B8818B3FC046F4182C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -832,36 +1116,53 @@
 				75F61C49213390DD00D6EA42 /* MusicPlayViewController.m in Sources */,
 				759F3DE520EF375100DDE941 /* ConmonUse.xcdatamodeld in Sources */,
 				75572C4B213D3A4D0036D6C5 /* GraphicViewController.m in Sources */,
+				9C5A285F216D9A7C003118CF /* TitlesListsParentViewController.m in Sources */,
 				753000B520FC6D2A00818120 /* QGMenuItem.m in Sources */,
 				75F61C40212FF91100D6EA42 /* MusicImageTool.m in Sources */,
 				75F61C2B212FE29900D6EA42 /* LrcDataTool.m in Sources */,
 				7530006E20F3432400818120 /* KeyanimationViewController.m in Sources */,
 				759F3E1220EF658E00DDE941 /* FunctionListViewController.m in Sources */,
+				9CEAF54B21534290008B63FE /* SegmentControlView.m in Sources */,
 				75F61C4D2133A2E400D6EA42 /* CALayer+LayerPause.m in Sources */,
 				759F3DDF20EF375100DDE941 /* ViewController.m in Sources */,
+				9C5A2866216F16EC003118CF /* ControllerTransitionScaleAnimation.m in Sources */,
 				75572C3E213CCF220036D6C5 /* AES128ViewController.m in Sources */,
 				759F3DED20EF375100DDE941 /* main.m in Sources */,
+				9C687A6D217EB855005FDFD8 /* CustomPlayerViewController.m in Sources */,
+				9C8526C1217DBF970071205B /* SBControlView.m in Sources */,
 				7517ACFB21056D0A005A5675 /* KeyanimationViewController+add.m in Sources */,
 				75F61C32212FE99700D6EA42 /* TimeTool.m in Sources */,
+				9C8526AB21776E9C0071205B /* CommonUse.intentdefinition in Sources */,
 				753000BB20FDBD7000818120 /* QGMenuController.m in Sources */,
+				9CEAC9CD214E5790008B63FE /* PasteBoardViewController.m in Sources */,
+				9C5A289A217343AD003118CF /* SiriShortCutManagerViewController.m in Sources */,
+				9C5A2863216DDFE3003118CF /* VLCPlayerViewController.m in Sources */,
 				7530007320F4878700818120 /* BasicAnimationViewController.m in Sources */,
 				75F61C5521366FB500D6EA42 /* MyProxy.m in Sources */,
 				75572C41213CFD540036D6C5 /* Cryptography.m in Sources */,
 				759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */,
+				9CEAF54821534290008B63FE /* SegmentCollectionViewCell.m in Sources */,
+				9C5A286921709D6D003118CF /* AVPlayerViewController.m in Sources */,
 				7530007B20F4A69800818120 /* CATransitionView.m in Sources */,
+				9CEAF54921534290008B63FE /* NSString+Exten.m in Sources */,
 				75F61C3B212FEDC400D6EA42 /* MusicMessageModel.m in Sources */,
 				75F61C28212FD98200D6EA42 /* MusicTool.m in Sources */,
+				9CEAF54E215342E3008B63FE /* MyChildViewController.m in Sources */,
 				7530009F20F5EAC800818120 /* FilterAnimationViewController.m in Sources */,
 				759F3E1C20EF697500DDE941 /* CircleProgressView.m in Sources */,
+				9C687A70218065C6005FDFD8 /* ScrollViewShakeViewController.m in Sources */,
 				753000A220F6080500818120 /* PourWaterViewController.m in Sources */,
 				75F61C19212D4AE600D6EA42 /* SoundEffectViewController.m in Sources */,
+				9C8526AF217DBB500071205B /* SBPlayer.m in Sources */,
 				753000AF20FC3E9700818120 /* QGMenuView.m in Sources */,
 				759F3DDC20EF375100DDE941 /* AppDelegate.m in Sources */,
 				75572C48213D2F2C0036D6C5 /* QRCode.m in Sources */,
+				9CEAF540215331C9008B63FE /* ScrollReuseViewController.m in Sources */,
 				75572C3A21393DD50036D6C5 /* DispatchTimerViewController.m in Sources */,
 				75F61C38212FED2300D6EA42 /* MusicModel.m in Sources */,
 				7517AD122105CD4F005A5675 /* MessageForwardController.m in Sources */,
 				753000AC20F8877400818120 /* PanMenuViewController.m in Sources */,
+				9C8526C5217DC7F80071205B /* SBPauseOrPlayView.m in Sources */,
 				759F3E2A20F306A000DDE941 /* CirclePortraitShape.m in Sources */,
 				75F61C1E212D693800D6EA42 /* MusicPlayerViewController.m in Sources */,
 				759F3E2020F2F94F00DDE941 /* CirclePortraitViewController.m in Sources */,
@@ -885,6 +1186,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5A288221733B46003118CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A288B21733B46003118CF /* IntentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -897,6 +1206,11 @@
 			isa = PBXTargetDependency;
 			target = 759F3DD620EF375100DDE941 /* ConmonUse */;
 			targetProxy = 759F3DFE20EF375200DDE941 /* PBXContainerItemProxy */;
+		};
+		9C5A289121733B46003118CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5A288521733B46003118CF /* CommonUseIntents */;
+			targetProxy = 9C5A289021733B46003118CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -915,6 +1229,14 @@
 				759F3DE920EF375100DDE941 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C5A288C21733B46003118CF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5A288D21733B46003118CF /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1026,9 +1348,9 @@
 		};
 		759F3E0720EF375200DDE941 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9DB607A4E87C47D1893FBC9 /* Pods-ConmonUse.debug.xcconfig */;
+			baseConfigurationReference = 9CDEB5322164FFE90020B6A4 /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				CODE_SIGN_ENTITLEMENTS = ConmonUse/ConmonUse.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9Q77KWL3VP;
@@ -1125,6 +1447,171 @@
 			};
 			name = Release;
 		};
+		9C5A289421733B46003118CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Q77KWL3VP;
+				INFOPLIST_FILE = CommonUseIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgon.quartz.CommonUseIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a27b18a9-43be-4049-94ff-2580b79de05a";
+				PROVISIONING_PROFILE_SPECIFIER = commonUseIntents;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C5A289521733B46003118CF /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Q77KWL3VP;
+				INFOPLIST_FILE = CommonUseIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgon.quartz.CommonUseIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a27b18a9-43be-4049-94ff-2580b79de05a";
+				PROVISIONING_PROFILE_SPECIFIER = commonUseIntents;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		9C5A289621733B46003118CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CommonUseIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgon.quartz.CommonUseIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CDEB5422167A7360020B6A4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Dev;
+		};
+		9CDEB5432167A7360020B6A4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDEB5342164FFF70020B6A4 /* Dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
+				CODE_SIGN_ENTITLEMENTS = ConmonUse/ConmonUse.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Q77KWL3VP;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConmonUse/New Group/基础功能/CommonUse.pch";
+				INFOPLIST_FILE = ConmonUse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorgon.quartz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c617dec-7189-4846-ae4f-4f466eb6789c";
+				PROVISIONING_PROFILE_SPECIFIER = testprofile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		9CDEB5442167A7360020B6A4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = ConmonUseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConmonUse.app/ConmonUse";
+			};
+			name = Dev;
+		};
+		9CDEB5452167A7360020B6A4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ3XMKZDV4;
+				INFOPLIST_FILE = ConmonUseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ads.Quartz----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConmonUse;
+			};
+			name = Dev;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1132,6 +1619,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				759F3E0420EF375200DDE941 /* Debug */,
+				9CDEB5422167A7360020B6A4 /* Dev */,
 				759F3E0520EF375200DDE941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1141,6 +1629,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				759F3E0720EF375200DDE941 /* Debug */,
+				9CDEB5432167A7360020B6A4 /* Dev */,
 				759F3E0820EF375200DDE941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1150,6 +1639,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				759F3E0A20EF375200DDE941 /* Debug */,
+				9CDEB5442167A7360020B6A4 /* Dev */,
 				759F3E0B20EF375200DDE941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1159,7 +1649,18 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				759F3E0D20EF375200DDE941 /* Debug */,
+				9CDEB5452167A7360020B6A4 /* Dev */,
 				759F3E0E20EF375200DDE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5A289321733B46003118CF /* Build configuration list for PBXNativeTarget "CommonUseIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A289421733B46003118CF /* Debug */,
+				9C5A289521733B46003118CF /* Dev */,
+				9C5A289621733B46003118CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

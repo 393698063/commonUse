@@ -7,7 +7,8 @@
 //
 
 
-#import "MMBaseViewController.h"
+#import <UIKit/UIKit.h>
+#import <YYCategories.h>
 
 @protocol TitlesListsParentViewControllerDataSource <NSObject>
 
@@ -45,7 +46,7 @@
 @end
 
 
-@interface TitlesListsParentViewController : MMBaseViewController<TitlesListsParentViewControllerDataSource>
+@interface TitlesListsParentViewController : UIViewController<TitlesListsParentViewControllerDataSource>
 
 /** 所有的标题按钮 */
 @property (strong, nonatomic) NSMutableArray<UIButton *> *titleBtns;

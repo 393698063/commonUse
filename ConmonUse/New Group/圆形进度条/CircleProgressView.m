@@ -32,7 +32,7 @@
     if (self = [super initWithFrame:frame]) {
         //轨迹图层
         _circleLayer = [CAShapeLayer new];
-        _circleLayer.frame = self.bounds;
+        _circleLayer.frame = super.bounds;
         //填充的颜色
         _circleLayer.fillColor = [UIColor clearColor].CGColor;
         //线条的宽度
