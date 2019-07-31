@@ -2,7 +2,7 @@
 //  SBControlView.m
 //  ConmonUse
 //
-//  Created by Qiao,Gang(RM) on 2018/10/22.
+//  Created by jorgon(RM) on 2018/10/22.
 //  Copyright © 2018年 jorgon. All rights reserved.
 //
 

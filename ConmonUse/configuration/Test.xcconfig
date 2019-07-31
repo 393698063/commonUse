@@ -1,0 +1,14 @@
+//
+//  Test.xcconfig
+//  ConmonUse
+//
+//  Created by Qiao,Gang(RM) on 2019/3/29.
+//  Copyright © 2019年 jorgon. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//iOS大神Justin Spahr-Summers的开源库xcconfigs提供了一个类权威的模板,
+//这是一个很好的学习使用xcconfig的库，强烈推荐
+//https://github.com/jspahrsummers/xcconfigs

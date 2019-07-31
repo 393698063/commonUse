@@ -41,19 +41,19 @@
         _circleLayer.strokeColor = [UIColor blackColor].CGColor;
         
         
-        //轨迹path
-        _circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2) radius:self.bounds.size.width/2 - kCircleProgessViewLineWidth/2
-                                                 startAngle:0 endAngle:M_PI * 2 clockwise:YES];
-        _circleLayer.path = _circlePath.CGPath;
+//        //轨迹path
+//        _circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2) radius:self.bounds.size.width/2 - kCircleProgessViewLineWidth/2
+//                                                 startAngle:0 endAngle:M_PI * 2 clockwise:YES];
+//        _circleLayer.path = _circlePath.CGPath;
         
 
         /**
          进度的图层
          */
         _progessLayer = [CAShapeLayer layer];
-        _progessLayer.frame = self.bounds;
+//        _progessLayer.frame = self.bounds;
         //填充颜色
-        _progessLayer.fillColor = [UIColor grayColor].CGColor;
+        _progessLayer.fillColor = [UIColor clearColor].CGColor;
         //线条的宽度
         _progessLayer.lineWidth = kCircleProgessViewLineWidth;
         //线条的颜色
@@ -67,6 +67,16 @@
         
     }
     return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    _circleLayer.frame = self.bounds;
+    _progessLayer.frame = self.bounds;
+    //轨迹path
+    _circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2) radius:self.bounds.size.width/2 - kCircleProgessViewLineWidth/2
+                                             startAngle:0 endAngle:M_PI * 2 clockwise:YES];
+    _circleLayer.path = _circlePath.CGPath;
 }
 
 //更新进度

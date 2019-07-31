@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <AVFoundation/AVFoundation.h>
+#import "SignalHandler.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1. 抓取crash 方法，
+//    NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
+    
+    //2 通过信号
+    [SignalHandler RegisterSignalHandler];
     return YES;
 }
 
@@ -68,6 +74,43 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+#pragma mark    收集异常，存储到本地，下次用户打开程序时上传给我们
+void UncaughtExceptionHandler(NSException *exception) {
+    /**
+     *  获取异常崩溃信息
+     */
+    NSArray *callStack = [exception callStackSymbols];
+    NSString *reason = [exception reason];
+    NSString *name = [exception name];
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    NSString * dateStr = [formatter stringFromDate:[NSDate date]];
+    
+//    NSString * userID   =   [NUD objectForKey:USERID];
+//    NSString * userName =   [NUD objectForKey:USERNAME];
+    
+    NSString * iOS_Version = [[UIDevice currentDevice] systemVersion];
+    NSString * PhoneSize    =   NSStringFromCGSize([[UIScreen mainScreen] bounds].size);
+    
+    NSString * App_Version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+//    NSString * iPhoneType = [RSToolNSObject getiPhoneType];
+    
+//    NSString *content = [NSString stringWithFormat:@"%@<br>\niOS_Version : %@----PhoneSize : %@<br>\n----iPhoneType: %@<br>\nApp_Version : %@<br>\nuserID : %@<br>\nuserName : %@<br>\nname:%@<br>\nreason:\n%@<br>\ncallStackSymbols:\n%@",dateStr,iOS_Version,PhoneSize,iPhoneType,App_Version,userID,userName,name,reason,[callStack componentsJoinedByString:@"\n"]];
+    
+#if DEBUG
+//    NSDictionary * dictionary   =   @{@"content":content,
+//                                      @"isDebug":@(1),
+//                                      @"packageName":@"com.thinkjoy.NetworkTaxiDriver"};
+#else
+//    NSDictionary * dictionary   =   @{@"content":content,
+//                                      @"isDebug":@(0),
+//                                      @"packageName":@"com.thinkjoy.NetworkTaxiDriver"};
+#endif
+    
+//    [NUD setObject:dictionary forKey:Sandbox_appErrorInfo];
 }
 
 

@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"音乐播放器";
-    UITableView * tablview = [[UITableView alloc] init];
+    UITableView * tablview = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tablview.delegate = self;
     tablview.dataSource = self;
     [self.view addSubview:tablview];

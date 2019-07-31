@@ -42,7 +42,14 @@
                  @"AVPlayerViewController",
                  @"SiriShortCutManagerViewController",
                  @"CustomPlayerViewController",
-                 @"ScrollViewShakeViewController"];
+                 @"ScrollViewShakeViewController",
+                 @"ScrolloffsetViewController",
+                 @"ImageClipViewController",
+                 @"AVSpeechSynthesizeViewController",
+                 @"AVAudioViewController",
+                 @"QGAVRecordViewController",
+                 @"QGAVRecoredViewController_AVAsset",
+                 @"QGFaceDetactorViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

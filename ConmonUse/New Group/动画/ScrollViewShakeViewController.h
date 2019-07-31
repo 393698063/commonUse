@@ -2,7 +2,7 @@
 //  ScrollViewShakeViewController.h
 //  ConmonUse
 //
-//  Created by Qiao,Gang(RM) on 2018/10/24.
+//  Created by jorgon(RM) on 2018/10/24.
 //  Copyright © 2018年 jorgon. All rights reserved.
 //
 

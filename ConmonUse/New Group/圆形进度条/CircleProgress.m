@@ -19,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+//    self.view.bounds = CGRectMake(NAN, NAN, NAN, NAN);
+    
     UISlider * slider = [[UISlider alloc] initWithFrame:CGRectMake(50, 100, 200, 20)];
     slider.maximumValue = 1.0f;
     slider.minimumValue = 0.0f;

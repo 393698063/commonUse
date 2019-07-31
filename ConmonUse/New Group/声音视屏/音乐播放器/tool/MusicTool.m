@@ -101,7 +101,7 @@
 - (void)stopCurrentMusic{
     if (self.player) {
         [self.player stop];
-        self.player.delegate = self;
+        self.player.delegate = nil;
         self.player = nil;
     }
 }

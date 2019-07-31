@@ -1,4 +1,4 @@
-//
+ //
 //  MessageForwardController.m
 //  ConmonUse
 //
@@ -32,9 +32,9 @@
     // Do any additional setup after loading the view.
     _lock = dispatch_semaphore_create(1);
     self.title = @"消息转发";
-    [self performSelector:@selector(add:) withObjects:@[@[@1,@2,@3]]];
 //    [self performSelector:@selector(add:) withObjects:@[@[@1,@2,@3]]];
-    [self performSelector:@selector(tt) withObjects:nil];
+//    [self performSelector:@selector(add:) withObjects:@[@[@1,@2,@3]]];
+    [self performSelector:@selector(tt)];
 }
 
 #pragma mark - 消息转发流程
@@ -79,6 +79,8 @@
         class_replaceMethod([methodHelper class],
                             aSelector,
                             class_getMethodImplementation(NSClassFromString(@"methodHelper"), @selector(methodHelper)),"s@:@");
+    } else {
+//        method_exchangeImplementations(<#Method  _Nonnull m1#>, <#Method  _Nonnull m2#>)
     }
     
     

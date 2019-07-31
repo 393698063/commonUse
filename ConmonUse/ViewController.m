@@ -26,6 +26,19 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSURL * url = [NSURL URLWithString:nil];
+    NSData * data = [NSData dataWithContentsOfURL:url];
+    UIImageView * imageView = [[UIImageView alloc] init];
+    imageView.image = [UIImage imageWithData:data];
+//    @try {
+//        NSLog(@"%@",@"try");
+//        NSArray * a = @[@""];
+//        a[1];
+//    } @catch (NSException *exception) {
+//         NSLog(@"%@",@"catch");
+//    } @finally {
+//         NSLog(@"%@",@"finally");
+//    }
     // Do any additional setup after loading the view, typically from a nib.
     //初始化一个layer,添加到主视图
     layer=[CALayer layer];
@@ -134,7 +147,7 @@
 -(IBAction)changeLayerProperty
 {
     //设置变化动画过程是否显示，默认为NO不显示
-//    [CATransaction setDisableActions:NO];
+//    [CATransaction setDisableActions:YES];
 //    //设置圆角
 //    layer.cornerRadius = (layer.cornerRadius == 0.0f) ? 30.0f : 0.0f;
 //    //设置透明度
@@ -149,7 +162,7 @@
 //    修改执行时间
     [CATransaction begin];
     //显式事务默认开启动画效果,kCFBooleanTrue关闭
-    [CATransaction setValue:(id)kCFBooleanFalse
+    [CATransaction setValue:(id)kCFBooleanTrue
                      forKey:kCATransactionDisableActions];
     //动画执行时间
     [CATransaction setValue:[NSNumber numberWithFloat:5.0f] forKey:kCATransactionAnimationDuration];

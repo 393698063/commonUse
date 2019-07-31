@@ -2,7 +2,7 @@
 //  CustomPlayerViewController.m
 //  ConmonUse
 //
-//  Created by Qiao,Gang(RM) on 2018/10/23.
+//  Created by jorgon(RM) on 2018/10/23.
 //  Copyright © 2018年 jorgon. All rights reserved.
 //
 
