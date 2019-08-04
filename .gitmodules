@@ -1,0 +1,3 @@
+[submodule "DecompilationProtect"]
+	path = DecompilationProtect
+	url = git@github.com:393698063/DecompilationProtect.git

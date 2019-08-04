@@ -157,6 +157,16 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9CB6F1FF22F164EB00EE675E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -341,6 +351,7 @@
 		9C8526C2217DC42E0071205B /* SBCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCommonHeader.h; sourceTree = "<group>"; };
 		9C8526C3217DC7F80071205B /* SBPauseOrPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPauseOrPlayView.h; sourceTree = "<group>"; };
 		9C8526C4217DC7F80071205B /* SBPauseOrPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPauseOrPlayView.m; sourceTree = "<group>"; };
+		9CB6F1FA22F140F400EE675E /* DecompilationProtect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecompilationProtect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB8F09E225F3CB000AD026B /* QGRunLoopExcuteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGRunLoopExcuteViewController.h; sourceTree = "<group>"; };
 		9CB8F09F225F3CB000AD026B /* QGRunLoopExcuteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGRunLoopExcuteViewController.m; sourceTree = "<group>"; };
 		9CB8F0A0225F3CB000AD026B /* QGRunLoopExcuteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QGRunLoopExcuteViewController.xib; sourceTree = "<group>"; };
@@ -407,6 +418,7 @@
 		2D1BEB3DE88F2429E6C2EF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CB6F1FA22F140F400EE675E /* DecompilationProtect.framework */,
 				92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */,
 				9C5A286F217326B9003118CF /* IntentsUI.framework */,
 			);
@@ -1022,6 +1034,7 @@
 				759F3DD420EF375100DDE941 /* Frameworks */,
 				759F3DD520EF375100DDE941 /* Resources */,
 				9C5A2880217326BA003118CF /* Embed App Extensions */,
+				9CB6F1FF22F164EB00EE675E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1741,6 +1754,14 @@
 				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ConmonUse/New Group/基础功能/CommonUse.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
+					"\"$(SRCROOT)/DecompilationProtect\"",
+				);
 				INFOPLIST_FILE = ConmonUse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

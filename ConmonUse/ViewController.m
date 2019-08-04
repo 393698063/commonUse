@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSObject+Test.h"
+#import <DecompilationProtect/DecompilationProtect.h>
 
 @interface ViewController ()
 {
