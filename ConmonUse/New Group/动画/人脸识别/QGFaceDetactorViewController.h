@@ -2,7 +2,7 @@
 //  QGFaceDetactorViewController.h
 //  ConmonUse
 //
-//  Created by Qiao,Gang(RM) on 2019/6/28.
+//  Created by   on 2019/6/28.
 //  Copyright © 2019年 jorgon. All rights reserved.
 //
 

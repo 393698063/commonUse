@@ -83,6 +83,8 @@
 		75F61C5C21392EFB00D6EA42 /* MeasureOperationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */; };
 		9C06AC2A2293A22900E0FAEF /* AVSpeechSynthesizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C06AC292293A22800E0FAEF /* AVSpeechSynthesizeViewController.m */; };
 		9C0C95D1219B0DA800343E3C /* ScrolloffsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C95D0219B0DA700343E3C /* ScrolloffsetViewController.m */; };
+		9C1991DA23064E140005B1BD /* DecompilationProtect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */; };
+		9C1991DB23064E140005B1BD /* DecompilationProtect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C2F5E52227ED25A00B73FCC /* ImageClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F5E51227ED25A00B73FCC /* ImageClipViewController.m */; };
 		9C2F5E54227ED2DA00B73FCC /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2F5E53227ED2D900B73FCC /* testImage.jpeg */; };
 		9C41149822AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41149722AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m */; };
@@ -157,12 +159,13 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CB6F1FF22F164EB00EE675E /* Embed Frameworks */ = {
+		9C721F7622F7E6A00057E6BD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9C1991DB23064E140005B1BD /* DecompilationProtect.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +339,7 @@
 		9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPlayerViewController.m; sourceTree = "<group>"; };
 		9C687A6E218065C6005FDFD8 /* ScrollViewShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewShakeViewController.h; sourceTree = "<group>"; };
 		9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewShakeViewController.m; sourceTree = "<group>"; };
+		9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecompilationProtect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CommonUse.intentdefinition; sourceTree = "<group>"; };
 		9C8526AD217DBB4E0071205B /* SBPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPlayer.h; sourceTree = "<group>"; };
 		9C8526AE217DBB4E0071205B /* SBPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPlayer.m; sourceTree = "<group>"; };
@@ -351,7 +355,6 @@
 		9C8526C2217DC42E0071205B /* SBCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCommonHeader.h; sourceTree = "<group>"; };
 		9C8526C3217DC7F80071205B /* SBPauseOrPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPauseOrPlayView.h; sourceTree = "<group>"; };
 		9C8526C4217DC7F80071205B /* SBPauseOrPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPauseOrPlayView.m; sourceTree = "<group>"; };
-		9CB6F1FA22F140F400EE675E /* DecompilationProtect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecompilationProtect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB8F09E225F3CB000AD026B /* QGRunLoopExcuteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGRunLoopExcuteViewController.h; sourceTree = "<group>"; };
 		9CB8F09F225F3CB000AD026B /* QGRunLoopExcuteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGRunLoopExcuteViewController.m; sourceTree = "<group>"; };
 		9CB8F0A0225F3CB000AD026B /* QGRunLoopExcuteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QGRunLoopExcuteViewController.xib; sourceTree = "<group>"; };
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50603BEA47687D7A6824B171 /* libPods-ConmonUse.a in Frameworks */,
+				9C1991DA23064E140005B1BD /* DecompilationProtect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +422,7 @@
 		2D1BEB3DE88F2429E6C2EF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CB6F1FA22F140F400EE675E /* DecompilationProtect.framework */,
+				9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */,
 				92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */,
 				9C5A286F217326B9003118CF /* IntentsUI.framework */,
 			);
@@ -1034,7 +1038,7 @@
 				759F3DD420EF375100DDE941 /* Frameworks */,
 				759F3DD520EF375100DDE941 /* Resources */,
 				9C5A2880217326BA003118CF /* Embed App Extensions */,
-				9CB6F1FF22F164EB00EE675E /* Embed Frameworks */,
+				9C721F7622F7E6A00057E6BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1760,7 +1764,6 @@
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
 					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
-					"\"$(SRCROOT)/DecompilationProtect\"",
 				);
 				INFOPLIST_FILE = ConmonUse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

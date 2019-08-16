@@ -707,22 +707,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ConmonUse/New Group/&#x58f0;&#x97f3;&#x89c6;&#x5c4f;/avfoundation/avcapture/QGAVRecordViewController.m"
-            timestampString = "583383470.126423"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "QGAVRecordViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "ConmonUse/New Group/&#x58f0;&#x97f3;&#x89c6;&#x5c4f;/avfoundation/avcapture/QGAVRecoredViewController+AVAsset.m"
             timestampString = "583383470.12651"
             startingColumnNumber = "9223372036854775807"
@@ -772,7 +756,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ConmonUse/New Group/&#x52a8;&#x753b;/&#x4eba;&#x8138;&#x8bc6;&#x522b;/QGFaceDetactorViewController.m"
-            timestampString = "583383470.126781"
+            timestampString = "587616735.002129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -788,13 +772,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ConmonUse/New Group/&#x52a8;&#x753b;/&#x4eba;&#x8138;&#x8bc6;&#x522b;/QGFaceDetactorViewController.m"
-            timestampString = "583383470.1273479"
+            timestampString = "587616735.004254"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
             landmarkName = "-faceDetectWithImage:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConmonUse/main.m"
+            timestampString = "587616735.004823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "AntiDebugASM"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConmonUse/main.m"
+            timestampString = "587616735.008532"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "AntiDebugASM"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConmonUse/main.m"
+            timestampString = "587616735.008785"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "main"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
