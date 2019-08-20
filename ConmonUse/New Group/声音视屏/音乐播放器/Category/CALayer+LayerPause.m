@@ -14,7 +14,7 @@
  2.事务管理
  CALayer的那些可用于动画的(Animatable)属性,称之为Animatable Properties,这里有一份详情的列表,罗列了所有的CALayer Animatable Properties. 如果一个Layer对象存在对应着的View,则称这个Layer是一个Root Layer,非Root Layer一般都是通过CALayer或其子类直接创建的.下面的subLayer就是一个典型的非Root Layer,它没有对应的View对象关联着.
  subLayer = [[CALayeralloc]init];
- subLayer.fra me=CGRectMake(0,0,300,300);
+ subLayer.frame=CGRectMake(0,0,300,300);
  subLayer.backgroundColor=[[UIColorredColor]CGColor];
  [self.view.layeraddSublayer:subLayer];
  所有的非Root Layer在设置Animatable Properties的时候都存在着隐式动画,默认的duration是0.25秒.
@@ -71,8 +71,7 @@
     layer.speed=1.0;
     layer.timeOffset=0.0;
     layer.beginTime=0.0;
-    CFTimeInterval timeSincePause =
-    [layer convertTime:CACurrentMediaTime()fromLayer:nil] - pausedTime;
+    CFTimeInterval timeSincePause = [layer convertTime:CACurrentMediaTime()fromLayer:nil] - pausedTime;
     layer.beginTime= timeSincePause;
 }
 @end

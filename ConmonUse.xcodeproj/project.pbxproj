@@ -83,8 +83,6 @@
 		75F61C5C21392EFB00D6EA42 /* MeasureOperationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61C5B21392EFB00D6EA42 /* MeasureOperationTimeViewController.m */; };
 		9C06AC2A2293A22900E0FAEF /* AVSpeechSynthesizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C06AC292293A22800E0FAEF /* AVSpeechSynthesizeViewController.m */; };
 		9C0C95D1219B0DA800343E3C /* ScrolloffsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C95D0219B0DA700343E3C /* ScrolloffsetViewController.m */; };
-		9C1991DA23064E140005B1BD /* DecompilationProtect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */; };
-		9C1991DB23064E140005B1BD /* DecompilationProtect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C2F5E52227ED25A00B73FCC /* ImageClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F5E51227ED25A00B73FCC /* ImageClipViewController.m */; };
 		9C2F5E54227ED2DA00B73FCC /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2F5E53227ED2D900B73FCC /* testImage.jpeg */; };
 		9C41149822AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41149722AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m */; };
@@ -99,6 +97,8 @@
 		9C6202C522942D13005FC937 /* QGAVRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6202C422942D13005FC937 /* QGAVRecordViewController.m */; };
 		9C687A6D217EB855005FDFD8 /* CustomPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */; };
 		9C687A70218065C6005FDFD8 /* ScrollViewShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */; };
+		9C71FA17230A728600B450E5 /* DecompilationProtect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C71FA16230A728600B450E5 /* DecompilationProtect.framework */; };
+		9C71FA18230A728600B450E5 /* DecompilationProtect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C71FA16230A728600B450E5 /* DecompilationProtect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C8526AB21776E9C0071205B /* CommonUse.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */; };
 		9C8526AF217DBB500071205B /* SBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8526AE217DBB4E0071205B /* SBPlayer.m */; };
 		9C8526B8217DBCDB0071205B /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8526B1217DBCDB0071205B /* pause@2x.png */; };
@@ -165,7 +165,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9C1991DB23064E140005B1BD /* DecompilationProtect.framework in Embed Frameworks */,
+				9C71FA18230A728600B450E5 /* DecompilationProtect.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +339,7 @@
 		9C687A6C217EB855005FDFD8 /* CustomPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPlayerViewController.m; sourceTree = "<group>"; };
 		9C687A6E218065C6005FDFD8 /* ScrollViewShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewShakeViewController.h; sourceTree = "<group>"; };
 		9C687A6F218065C6005FDFD8 /* ScrollViewShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewShakeViewController.m; sourceTree = "<group>"; };
-		9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecompilationProtect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C71FA16230A728600B450E5 /* DecompilationProtect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecompilationProtect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8526AA21776E9C0071205B /* CommonUse.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CommonUse.intentdefinition; sourceTree = "<group>"; };
 		9C8526AD217DBB4E0071205B /* SBPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBPlayer.h; sourceTree = "<group>"; };
 		9C8526AE217DBB4E0071205B /* SBPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBPlayer.m; sourceTree = "<group>"; };
@@ -398,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50603BEA47687D7A6824B171 /* libPods-ConmonUse.a in Frameworks */,
-				9C1991DA23064E140005B1BD /* DecompilationProtect.framework in Frameworks */,
+				9C71FA17230A728600B450E5 /* DecompilationProtect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,6 @@
 		2D1BEB3DE88F2429E6C2EF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C721F8122F8126B0057E6BD /* DecompilationProtect.framework */,
 				92CCA62A032AFF9FD5122B9C /* libPods-ConmonUse.a */,
 				9C5A286F217326B9003118CF /* IntentsUI.framework */,
 			);
@@ -566,6 +565,7 @@
 		759F3DCE20EF375100DDE941 = {
 			isa = PBXGroup;
 			children = (
+				9C71FA16230A728600B450E5 /* DecompilationProtect.framework */,
 				759F3DD920EF375100DDE941 /* ConmonUse */,
 				759F3DF520EF375100DDE941 /* ConmonUseTests */,
 				759F3E0020EF375200DDE941 /* ConmonUse UITests */,

@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <DecompilationProtect/DecompilationProtect.h>
-#import <DecompilationProtect/QGDecopilationProtect.h>
-
 
 static __attribute__((always_inline)) void AntiDebugASM() {
     printf("11111");
