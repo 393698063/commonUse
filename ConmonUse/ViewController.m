@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSObject+Test.h"
 #import <DecompilationProtect/DecompilationProtect.h>
+#import "QGCustomSection.h"
 
 @interface ViewController ()
 {
@@ -16,6 +17,7 @@
 }
 @end
 
+#define testmacro "234"
 @implementation ViewController
 /*
  CALayer的“Animatable”属性的设置都应该属于某一个CATransaction事务，CATransaction的作用是保证多个“Animatable”的变化同时进行。也就是说CALayer的属性修改需要依赖CATransaction。
@@ -27,6 +29,8 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%@", )
+    [QGCustomSection readSection];
     NSURL * url = [NSURL URLWithString:nil];
     NSData * data = [NSData dataWithContentsOfURL:url];
     UIImageView * imageView = [[UIImageView alloc] init];

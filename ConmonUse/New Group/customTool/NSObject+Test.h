@@ -15,6 +15,7 @@ typedef NS_ENUM(NSInteger, TestStyleType){
     TestStyleValue2,
     TestStyleSubtitle
 };
+
 //Declaring an NS_OPTIONS Type
 typedef NS_OPTIONS(NSUInteger, TestResizing){
     TestResizingNone                  = 0,

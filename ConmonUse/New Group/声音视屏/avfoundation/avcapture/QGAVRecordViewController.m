@@ -12,8 +12,10 @@
  这个问题严格上讲和Objective－C没什么太大的关系，这个是GNU C的对C的扩展语法
  
  在理解一下什么是GNU C ，下面是百度给的定义：
- GNU C 函式库（GNU C Library，又称为glibc）是一种按照LGPL许可协议发布的，公开源代码的，免费的，方便从网络下载的C的编译程序。 GNU C运行期库，是一种C函式库，
- 是程序运行时使用到的一些API集合，它们一般是已预先编译好，以二进制代码形式存 在Linux类系统中，GNU C运行期库，通常作为GNU C编译程序的一个部分发布。
+ GNU C 函式库（GNU C Library，又称为glibc）是一种按照LGPL许可协议发布的，公开源代码的，免费的，方便从网络下载的C的编译程序。
+ GNU C运行期库，是一种C函式库，
+ 是程序运行时使用到的一些API集合，它们一般是已预先编译好，以二进制代码形式存
+ 在Linux类系统中，GNU C运行期库，通常作为GNU C编译程序的一个部分发布。
  它最初是自由软件基金会为其GNU操作系统所写，但目前最主要的应用是配合Linux内核，成为GNU/Linux操作系统一个重要的组成部分。
  
  继续解释：
@@ -90,21 +92,27 @@ self.captureSession = ({
  
  2、通过 AVCaptureDevice 的类方法 defaultDeviceWithMediaType 区别 MediaType 得到 AVCaptureDevice 对象。
  
- 3、得到上面的 AVCaptureDevice 对象之后，就是我们的 AVCaptureDeviceInput 输入对象了。把我们的输入对象添加到 AVCaptureSession ，当然这里输入对象是要区分音频和视频对象的，这个具体的代码里面我们说。
+ 3、得到上面的 AVCaptureDevice 对象之后，就是我们的 AVCaptureDeviceInput 输入对象了。
+ 把我们的输入对象添加到 AVCaptureSession ，
+ 当然这里输入对象是要区分音频和视频对象的，这个具体的代码里面我们说。
  
  4、有了输入当然也就有 AVCaptureMovieFileOutput，把它添加给AVCaptureSession对象。
  
- 5、通过我们初始化的AVCaptureMovieFileOutput的connectionWithMediaType方法得到一个AVCaptureConnection对象，ACCaptureConnection可以控制input到output的数据传输也可以设置视频录制的一些属性。
+ 5、通过我们初始化的AVCaptureMovieFileOutput的connectionWithMediaType方法得到一个AVCaptureConnection对象，
+ ACCaptureConnection可以控制input到output的数据传输，也可以设置视频录制的一些属性。
  
- 6、也是通过前面得到的AVCaptureSession对象初始化得到一个AVCaptureVideoPreviewLayer对象，用来预览我们要录制的视频画面，注意这个时候我们的视频录制还没有开始。
+ 6、也是通过前面得到的AVCaptureSession对象初始化得到一个AVCaptureVideoPreviewLayer对象，
+ 用来预览我们要录制的视频画面，注意这个时候我们的视频录制还没有开始。
  
  7、现在看看AVCaptureSession对象，你就发现输入输出以及Connection还有预览层都有了，那就让它 startRunning。
  
  8、好了，用我们的AVCaptureMovieFileOutput 的 startRecordingToOutputFileURL 开始录制吧。
  
- 9、录制到满足你的需求时候记得让你startRunning的AVCaptureSession 通过 stopRunning休息了，让你的AVCaptureMovieFileOutput也可以stopRecording。这样整个过程就结束了！
+ 9、录制到满足你的需求时候记得让你startRunning的AVCaptureSession 通过 stopRunning休息了，
+ 让你的AVCaptureMovieFileOutput也可以stopRecording。这样整个过程就结束了！
  
- 上面的过程我们就把使用AVCaptureSession + AVCaptureMovieFileOutput录制视频的过程说的清楚了，有些细节我们也提过了，我们看看下面我们的Demo效果，由于是在真机测试的就简单截两张图。具体的可以运行Demo看看：
+ 上面的过程我们就把使用AVCaptureSession + AVCaptureMovieFileOutput录制视频的过程说的清楚了，有些细节我们也提过了，我们看看下面我们的Demo效果，
+ 由于是在真机测试的就简单截两张图。具体的可以运行Demo看看：
  */
 
 
@@ -174,7 +182,10 @@ self.captureSession = ({
         if ([connection isVideoMirroringSupported]) {
             
             /*
-             视频防抖 是在 iOS 6 和 iPhone 4S 发布时引入的功能。到了 iPhone 6，增加了更强劲和流畅的防抖模式，被称为影院级的视频防抖动。相关的 API 也有所改动 (目前为止并没有在文档中反映出来，不过可以查看头文件）。防抖并不是在捕获设备上配置的，而是在 AVCaptureConnection 上设置。由于不是所有的设备格式都支持全部的防抖模式，所以在实际应用中应事先确认具体的防抖模式是否支持：
+             视频防抖 是在 iOS 6 和 iPhone 4S 发布时引入的功能。到了 iPhone 6，增加了更强劲和流畅的防抖模式，
+             被称为影院级的视频防抖动。相关的 API 也有所改动 (目前为止并没有在文档中反映出来，不过可以查看头文件）。
+             防抖并不是在捕获设备上配置的，而是在 AVCaptureConnection 上设置。由于不是所有的设备格式都支持全部的防抖模式，
+             所以在实际应用中应事先确认具体的防抖模式是否支持：
              
              typedef NS_ENUM(NSInteger, AVCaptureVideoStabilizationMode) {
              AVCaptureVideoStabilizationModeOff       = 0,
@@ -210,7 +221,7 @@ self.captureSession = ({
         
         // 开始录制
         [self.captureSession startRunning];
-        [self startRecordSession];
+//        [self startRecordSession];
         
     }else{
         
@@ -468,7 +479,7 @@ didPauseRecordingToOutputFileAtURL:(NSURL *)fileURL
      可以看看这个outputFileType格式，比如AVFileTypeMPEG4也可以写成public.mpeg-4，其他类似
      */
     exportSession.outputFileType = AVFileTypeQuickTimeMovie;
-    
+//    exportSession.progress
     NSLog(@"视频压缩后的presetName: %@",exportSession.presetName);
     // 压缩的方法  export 导出  Asynchronously 异步
     [exportSession exportAsynchronouslyWithCompletionHandler:^{

@@ -9,19 +9,18 @@
 #import "AppDelegate.h"
 #import <AVFoundation/AVFoundation.h>
 #import "SignalHandler.h"
-
+#import "QGLaunchMethodSetion.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //1. 抓取crash 方法，
 //    NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
-    
+    [QGLaunchMethodSetion executeFunctionsForKey:LEVEL_A];
     //2 通过信号
     [SignalHandler RegisterSignalHandler];
     return YES;

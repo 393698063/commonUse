@@ -49,7 +49,9 @@
                  @"AVAudioViewController",
                  @"QGAVRecordViewController",
                  @"QGAVRecoredViewController_AVAsset",
-                 @"QGFaceDetactorViewController"];
+                 @"QGFaceDetactorViewController",
+                 @"QGLRCViewController",
+                 @"QGLocalPushViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

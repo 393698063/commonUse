@@ -15,8 +15,12 @@ NSString * const TestStyleTypeDescription[] = {
     [TestStyleValue2] = @"Value 11",
     [TestStyleSubtitle] = @"Value 21"
 };
+
 @implementation NSObject (Test)
 - (void)method:(id)object, ... {
+    
+    TestStyleType style = TestStyleDefault;
+    NSString *description = TestStyleTypeDescription[style];
     
     va_list args;
     va_start(args, object);

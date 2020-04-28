@@ -11,7 +11,7 @@ DEPENDENCIES:
   - YYCategories
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Masonry
     - MJExtension
     - YYCategories
@@ -21,6 +21,6 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 51be5474100b94dfad832840667216de7d782c00
+PODFILE CHECKSUM: 89ec29722ec205b1d388520b05207119a6db6f52
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.1
