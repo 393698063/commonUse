@@ -5,7 +5,7 @@
 //  Created by jorgon on 31/08/18.
 //  Copyright © 2018年 jorgon. All rights reserved.
 //
-
+//https://blog.csdn.net/runtime233/article/details/81296771
 #import "DispatchTimerViewController.h"
 
 @interface DispatchTimerViewController ()
@@ -36,7 +36,7 @@
     
     
     [self dispatchTimer];
-    dispatchTimer(self, 1, ^(dispatch_source_t timer) {
+    dispatchTimer(self, 5, ^(dispatch_source_t timer) {
         NSLog(@"2dafa");
     });
 }
@@ -67,9 +67,10 @@ void dispatchTimer(id target, double timeInterval,void (^handler)(dispatch_sourc
     int64_t delay = 5 * NSEC_PER_SEC;
     int64_t leeway = 1 * NSEC_PER_SEC;
     dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, delay , leeway);
-    
+    __weak typeof(self)weakSelf = self;
     dispatch_source_set_event_handler(timer, ^{
         NSLog(@"Ding Dong!");
+        self.view;
     });
     dispatch_resume(timer);
 }

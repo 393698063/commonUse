@@ -45,12 +45,13 @@
  SIGILL--程序非法指令信号
  SIGHUP--程序终端中止信号
  SIGINT--程序键盘中断信号
- SIGKILL--程序结束接收中止信号
  SIGTERM--程序kill中止信号
- SIGSTOP--程序键盘中止信号
  SIGSEGV--程序无效内存中止信号
  SIGBUS--程序内存字节未对齐中止信号
  SIGPIPE--程序Socket发送失败中止信号
+ 有两个信号既不能被忽略也不能被捕捉，它们是SIGKILL和SIGSTOP
+ SIGSTOP--程序键盘中止信号
+ SIGKILL--程序结束接收中止信号
  */
 
 

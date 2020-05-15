@@ -10,7 +10,7 @@
 #import "NSObject+Test.h"
 #import <DecompilationProtect/DecompilationProtect.h>
 #import "QGCustomSection.h"
-
+#import "QGCallStackObtain.h"
 @interface ViewController ()
 {
     CALayer * layer;
@@ -29,7 +29,10 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@", )
+//    void *pc = malloc(1024);
+//    free(pc);
+//    free(pc);
+    [QGCallStackObtain clallStack];
     [QGCustomSection readSection];
     NSURL * url = [NSURL URLWithString:nil];
     NSData * data = [NSData dataWithContentsOfURL:url];

@@ -101,6 +101,7 @@
 		9C2F5E54227ED2DA00B73FCC /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2F5E53227ED2D900B73FCC /* testImage.jpeg */; };
 		9C2FE6DA2394FF7D00D3A9B4 /* QGLaunchMethodSetion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FE6D92394FF7D00D3A9B4 /* QGLaunchMethodSetion.m */; };
 		9C41149822AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41149722AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m */; };
+		9C42C3D22466466600F6013E /* QGCallStackObtain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42C3D12466466600F6013E /* QGCallStackObtain.m */; };
 		9C5A285F216D9A7C003118CF /* TitlesListsParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A285D216D9A7C003118CF /* TitlesListsParentViewController.m */; };
 		9C5A2863216DDFE3003118CF /* VLCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A2862216DDFE3003118CF /* VLCPlayerViewController.m */; };
 		9C5A2866216F16EC003118CF /* ControllerTransitionScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A2865216F16EC003118CF /* ControllerTransitionScaleAnimation.m */; };
@@ -370,6 +371,8 @@
 		9C2FE6D92394FF7D00D3A9B4 /* QGLaunchMethodSetion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGLaunchMethodSetion.m; sourceTree = "<group>"; };
 		9C41149622AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QGAVRecoredViewController+AVAsset.h"; sourceTree = "<group>"; };
 		9C41149722AE85D400D2A1D9 /* QGAVRecoredViewController+AVAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QGAVRecoredViewController+AVAsset.m"; sourceTree = "<group>"; };
+		9C42C3D02466466600F6013E /* QGCallStackObtain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGCallStackObtain.h; sourceTree = "<group>"; };
+		9C42C3D12466466600F6013E /* QGCallStackObtain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGCallStackObtain.m; sourceTree = "<group>"; };
 		9C5A285D216D9A7C003118CF /* TitlesListsParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitlesListsParentViewController.m; sourceTree = "<group>"; };
 		9C5A285E216D9A7C003118CF /* TitlesListsParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitlesListsParentViewController.h; sourceTree = "<group>"; };
 		9C5A2861216DDFE3003118CF /* VLCPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLCPlayerViewController.h; sourceTree = "<group>"; };
@@ -778,6 +781,7 @@
 		759F3E0F20EF649800DDE941 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				9C42C3CF2466462400F6013E /* 获取调用栈 */,
 				9CADA75E239BD7E800AF49A5 /* 推送 */,
 				9CDC2F5E238D40EC004171B8 /* 自定义section */,
 				9CE50E3E21DF8DA1008F768F /* 多线程 */,
@@ -972,6 +976,15 @@
 				9C2F5E51227ED25A00B73FCC /* ImageClipViewController.m */,
 			);
 			path = "图片裁剪";
+			sourceTree = "<group>";
+		};
+		9C42C3CF2466462400F6013E /* 获取调用栈 */ = {
+			isa = PBXGroup;
+			children = (
+				9C42C3D02466466600F6013E /* QGCallStackObtain.h */,
+				9C42C3D12466466600F6013E /* QGCallStackObtain.m */,
+			);
+			path = "获取调用栈";
 			sourceTree = "<group>";
 		};
 		9C5A285C216D9A7C003118CF /* base */ = {
@@ -1479,6 +1492,7 @@
 				75572C41213CFD540036D6C5 /* Cryptography.m in Sources */,
 				759F3E2420F2FD2500DDE941 /* CirclePortraitCell.m in Sources */,
 				9CEAF54821534290008B63FE /* SegmentCollectionViewCell.m in Sources */,
+				9C42C3D22466466600F6013E /* QGCallStackObtain.m in Sources */,
 				9C5A286921709D6D003118CF /* AVPlayerViewController.m in Sources */,
 				9C5CCD4921EDDF1C006D6BD4 /* DLOpenFrameworkViewController.m in Sources */,
 				7530007B20F4A69800818120 /* CATransitionView.m in Sources */,
