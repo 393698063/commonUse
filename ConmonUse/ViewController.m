@@ -11,6 +11,7 @@
 #import <DecompilationProtect/DecompilationProtect.h>
 #import "QGCustomSection.h"
 #import "QGCallStackObtain.h"
+#import <objc/runtime.h>
 @interface ViewController ()
 {
     CALayer * layer;
@@ -27,12 +28,34 @@
  区分隐式动画和隐式事务：隐式动画通过隐式事务实现动画 。
  区分显式动画和显式事务：显式动画有多种实现方式，显式事务是一种实现显式动画的方式
  */
+//struct objc_class {
+//    Class _Nonnull isa  OBJC_ISA_AVAILABILITY;
+//
+//#if !__OBJC2__
+//    Class _Nullable super_class                              OBJC2_UNAVAILABLE;
+//    const char * _Nonnull name                               OBJC2_UNAVAILABLE;
+//    long version                                             OBJC2_UNAVAILABLE;
+//    long info                                                OBJC2_UNAVAILABLE;
+//    long instance_size                                       OBJC2_UNAVAILABLE;
+//    struct objc_ivar_list * _Nullable ivars                  OBJC2_UNAVAILABLE;
+//    struct objc_method_list * _Nullable * _Nullable methodLists                    OBJC2_UNAVAILABLE;
+//    struct objc_cache * _Nonnull cache                       OBJC2_UNAVAILABLE;
+//    struct objc_protocol_list * _Nullable protocols          OBJC2_UNAVAILABLE;
+//#endif
+//
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    void *pc = malloc(1024);
+    Class stateClass = self.class;           //  1、对象 返回isa  2、class 返回本类
+    Class baseClass = object_getClass(self);  // 返回isa
+    Class metaClass = objc_getMetaClass(NSStringFromClass(self.class).UTF8String);
+    //    void *pc = malloc(1024);
 //    free(pc);
 //    free(pc);
     [QGCallStackObtain clallStack];
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        [QGCallStackObtain bs_backtraceOfAllThread];
+    });
     [QGCustomSection readSection];
     NSURL * url = [NSURL URLWithString:nil];
     NSData * data = [NSData dataWithContentsOfURL:url];
